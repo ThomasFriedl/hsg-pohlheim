@@ -1,0 +1,809 @@
+{
+ "meeting": "8256592",
+ "teams": [
+  {
+   "name": "HSG Pohlheim",
+   "spieler": [
+    {
+     "nr": 1,
+     "name": "Schlegel, Jannik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 3,
+     "name": "Dönges, Torben",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 4,
+     "name": "Friedl, Leon",
+     "tore": 7,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Laudt, Joshua Vincent",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Lex, Stefan",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Hantl, Joshua",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 19,
+     "name": "Neul, Fabian",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Martenstein, Jonathan",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 23,
+     "name": "Dahlhaus, Simon",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Weinandt, Torben",
+     "tore": 6,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Engel, Paul Louis",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 30,
+     "name": "Frenko, Leon",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 31,
+     "name": "Well, Noah",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 33,
+     "name": "Datz, Florentin",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 70,
+     "name": "Träger, Christoph",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 77,
+     "name": "Max, Jannik",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "GSV Eintr. Baunatal",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Thiel, Linus",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 3,
+     "name": "Wehner, Ben",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 8,
+     "name": "Scherer, Matej",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Kleine, Mattis",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Kleinschmidt, Jan-Erik",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 15,
+     "name": "Meyners, Luke",
+     "tore": 6,
+     "7m_tore": 3,
+     "7m_versuche": 5,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Junghans, Maurice",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 22,
+     "name": "Hellmuth, Justus",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 28,
+     "name": "Horstmann, Jona Moritz",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 33,
+     "name": "Wolf, Ben",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 37,
+     "name": "Braune, Julian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 43,
+     "name": "Kiekel, Jona",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 44,
+     "name": "Berninger, Jan Magnus",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 71,
+     "name": "Hellemann, Lasse",
+     "tore": 6,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 77,
+     "name": "Knop, Marius",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 86,
+     "name": "Rau, Christian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Heim",
+   "zeit": "00:50",
+   "stand": "1:0",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "01:10",
+   "stand": "2:0",
+   "ereignis": "Tor",
+   "person": "19 Neul, Fabian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "01:43",
+   "stand": "2:1",
+   "ereignis": "Tor",
+   "person": "22 Hellmuth, Justus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "01:51",
+   "stand": "3:1",
+   "ereignis": "Tor",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "02:37",
+   "stand": "4:1",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:05",
+   "stand": "5:1",
+   "ereignis": "Tor",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:46",
+   "stand": "6:1",
+   "ereignis": "Tor",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "",
+   "zeit": "05:03",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "05:46",
+   "stand": "6:2",
+   "ereignis": "Tor",
+   "person": "11 Kleine, Mattis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:23",
+   "stand": "7:2",
+   "ereignis": "Tor",
+   "person": "70 Träger, Christoph"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "07:29",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "3 Dönges, Torben"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:30",
+   "stand": "7:3",
+   "ereignis": "7m mit Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:23",
+   "stand": "7:4",
+   "ereignis": "Tor",
+   "person": "71 Hellemann, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "11:00",
+   "stand": "8:4",
+   "ereignis": "Tor",
+   "person": "31 Well, Noah"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "12:12",
+   "stand": "8:5",
+   "ereignis": "Tor",
+   "person": "17 Junghans, Maurice"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "14:44",
+   "stand": "8:6",
+   "ereignis": "Tor",
+   "person": "71 Hellemann, Lasse"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "15:29",
+   "stand": "8:7",
+   "ereignis": "Tor",
+   "person": "71 Hellemann, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:37",
+   "stand": "9:7",
+   "ereignis": "Tor",
+   "person": "19 Neul, Fabian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "16:17",
+   "stand": "9:8",
+   "ereignis": "Tor",
+   "person": "13 Kleinschmidt, Jan-Erik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "17:22",
+   "stand": "10:8",
+   "ereignis": "Tor",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "18:38",
+   "stand": "10:8",
+   "ereignis": "7m ohne Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "22:18",
+   "stand": "10:9",
+   "ereignis": "Tor",
+   "person": "71 Hellemann, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "24:56",
+   "stand": "11:9",
+   "ereignis": "Tor",
+   "person": "33 Datz, Florentin"
+  },
+  {
+   "seite": "",
+   "zeit": "25:40",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:09",
+   "stand": "12:9",
+   "ereignis": "Tor",
+   "person": "77 Max, Jannik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "27:06",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "44 Berninger, Jan Magnus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "29:59",
+   "stand": "12:10",
+   "ereignis": "Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "30:00",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "30 Frenko, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "31:25",
+   "stand": "13:10",
+   "ereignis": "Tor",
+   "person": "19 Neul, Fabian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "32:30",
+   "stand": "14:10",
+   "ereignis": "Tor",
+   "person": "19 Neul, Fabian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "33:21",
+   "stand": "14:11",
+   "ereignis": "Tor",
+   "person": "11 Kleine, Mattis"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:31",
+   "stand": "14:12",
+   "ereignis": "Tor",
+   "person": "44 Berninger, Jan Magnus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:48",
+   "stand": "14:13",
+   "ereignis": "Tor",
+   "person": "22 Hellmuth, Justus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "38:23",
+   "stand": "15:13",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:01",
+   "stand": "15:14",
+   "ereignis": "Tor",
+   "person": "11 Kleine, Mattis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "39:26",
+   "stand": "16:14",
+   "ereignis": "Tor",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "40:22",
+   "stand": "17:14",
+   "ereignis": "Tor",
+   "person": "31 Well, Noah"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "42:03",
+   "stand": "18:14",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "43:38",
+   "stand": "19:14",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "",
+   "zeit": "44:04",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "44:38",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "45:02",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "45:04",
+   "stand": "19:15",
+   "ereignis": "7m mit Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "45:58",
+   "stand": "19:16",
+   "ereignis": "Tor",
+   "person": "44 Berninger, Jan Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:33",
+   "stand": "20:16",
+   "ereignis": "Tor",
+   "person": "3 Dönges, Torben"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "46:56",
+   "stand": "20:17",
+   "ereignis": "Tor",
+   "person": "71 Hellemann, Lasse"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "48:23",
+   "stand": "20:18",
+   "ereignis": "Tor",
+   "person": "71 Hellemann, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "49:08",
+   "stand": "21:18",
+   "ereignis": "Tor",
+   "person": "19 Neul, Fabian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "49:35",
+   "stand": "21:19",
+   "ereignis": "Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:30",
+   "stand": "22:19",
+   "ereignis": "Tor",
+   "person": "31 Well, Noah"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:42",
+   "stand": "22:20",
+   "ereignis": "Tor",
+   "person": "22 Hellmuth, Justus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "51:29",
+   "stand": "22:21",
+   "ereignis": "Tor",
+   "person": "22 Hellmuth, Justus"
+  },
+  {
+   "seite": "",
+   "zeit": "51:40",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "52:07",
+   "stand": "23:21",
+   "ereignis": "Tor",
+   "person": "24 Weinandt, Torben"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "53:05",
+   "stand": "23:22",
+   "ereignis": "Tor",
+   "person": "44 Berninger, Jan Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "53:47",
+   "stand": "24:22",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "53:47",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "44 Berninger, Jan Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "54:54",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "3 Dönges, Torben"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "55:40",
+   "stand": "24:23",
+   "ereignis": "7m mit Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:56",
+   "stand": "24:24",
+   "ereignis": "Tor",
+   "person": "17 Junghans, Maurice"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "58:02",
+   "stand": "25:24",
+   "ereignis": "Tor",
+   "person": "31 Well, Noah"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:20",
+   "stand": "25:24",
+   "ereignis": "7m ohne Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:24",
+   "stand": "25:25",
+   "ereignis": "Tor",
+   "person": "15 Meyners, Luke"
+  },
+  {
+   "seite": "",
+   "zeit": "59:28",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:38",
+   "stand": "26:25",
+   "ereignis": "Tor",
+   "person": "4 Friedl, Leon"
+  },
+  {
+   "seite": "",
+   "zeit": "59:56",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "60:00",
+   "stand": "27:25",
+   "ereignis": "Tor",
+   "person": "77 Max, Jannik"
+  }
+ ],
+ "ergebnis": "27:25",
+ "halbzeit": "12:10",
+ "ort": "Sporthalle Holzheim"
+}
