@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="HSG Pohlheim">
+<meta name="theme-color" content="#13324f">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<!--INHALT-START-->
+<title>HSG Pohlheim Statistik</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+/* Layout: App-Hülle – Kopfzeile, eine Ansicht, Tab-Leiste unten wie eine iPhone-App. Farben: Hallenboden-Blau + Ball-Orange. */
+:root{
+  --bg:#eef2f6; --surface:#ffffff; --surface-2:#e3e9f0; --line:#cdd6e0;
+  --fg:#14202c; --muted:#5b6b7b; --court:#13324f; --court-fg:#ffffff;
+  --ball:#d9621c; --win:#1f7a4d; --loss:#b3322b; --draw:#8a6d1a;
+  --display:"Barlow Condensed","Arial Narrow",system-ui,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0c141c; --surface:#141f2a; --surface-2:#1c2a37; --line:#2a3a4a;
+  --fg:#e7edf3; --muted:#93a3b3; --court:#0f2a42; --court-fg:#eaf1f8;
+  --ball:#f0853d; --win:#4cc38a; --loss:#f07a72; --draw:#e0c35a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0c141c; --surface:#141f2a; --surface-2:#1c2a37; --line:#2a3a4a;
+  --fg:#e7edf3; --muted:#93a3b3; --court:#0f2a42; --court-fg:#eaf1f8;
+  --ball:#f0853d; --win:#4cc38a; --loss:#f07a72; --draw:#e0c35a; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--fg);font:16px/1.45 var(--body);-webkit-font-smoothing:antialiased;
+  padding-bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--court)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{background:var(--court);color:var(--court-fg)}
+header.top .wrap{padding-block:18px 16px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.club{font:700 30px/1 var(--display);letter-spacing:.01em;text-transform:uppercase;margin:0}
+.liga{font-size:13px;opacity:.8;margin-top:4px}
+.stand{font-size:12px;opacity:.75;text-align:right}
+main.wrap{padding-block:16px 24px;display:grid;gap:16px}
+h2{font:700 15px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:8px 0 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+.note{font-size:13px;color:var(--muted);background:var(--surface-2);border-radius:var(--r);padding:10px 12px}
+.num{font-family:var(--display);font-variant-numeric:tabular-nums}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--ball);outline-offset:2px}
+
+/* Live / nächstes Spiel */
+.next{padding:18px 16px;display:grid;gap:14px}
+.kicker{font:600 13px/1 var(--body);letter-spacing:.06em;text-transform:uppercase;color:var(--ball)}
+.match{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;text-align:center}
+.match .team{font:700 20px/1.1 var(--display);text-wrap:balance;min-width:0}
+.match .team.us{color:var(--ball)}
+.match .vs{font:600 14px var(--display);color:var(--muted)}
+.when{text-align:center;color:var(--muted);font-size:15px}
+.count{display:flex;justify-content:center;gap:18px}
+.count div{text-align:center}.count b{display:block;font:700 34px/1 var(--display)}.count span{font-size:12px;color:var(--muted)}
+.btn{display:flex;align-items:center;justify-content:center;gap:8px;padding:13px 16px;border-radius:999px;
+  background:var(--ball);color:#fff;font-weight:600;text-decoration:none;border:0}
+.btn.ghost{background:transparent;color:var(--fg);border:1px solid var(--line)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:600}
+.pill.live{background:var(--loss);color:#fff}
+.pill.live::before{content:"";width:7px;height:7px;border-radius:50%;background:#fff;animation:blink 1.2s infinite}
+@keyframes blink{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){.pill.live::before{animation:none}}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-radius:var(--r);overflow:hidden;border:1px solid var(--line)}
+.kpis div{background:var(--surface);padding:12px;text-align:center}
+.kpis b{display:block;font:700 26px/1 var(--display)}.kpis span{font-size:12px;color:var(--muted)}
+
+/* Spiele */
+.games{display:grid}
+.game{display:grid;grid-template-columns:62px 1fr auto;gap:10px;align-items:center;padding:12px 14px;border-top:1px solid var(--line);
+  background:none;border-left:0;border-right:0;border-bottom:0;text-align:left;width:100%;cursor:default}
+.game:first-child{border-top:0}
+.game.has{cursor:pointer}
+.game .d{font-size:13px;color:var(--muted);line-height:1.2}.game .d b{display:block;color:var(--fg);font:700 17px var(--display)}
+.game .o{min-width:0}.game .o b{display:block;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.game .o span{font-size:12px;color:var(--muted)}
+.score{font:700 22px/1 var(--display);font-variant-numeric:tabular-nums;padding:6px 9px;border-radius:7px;min-width:66px;text-align:center}
+.score.s{background:color-mix(in srgb,var(--win) 16%,transparent);color:var(--win)}
+.score.n{background:color-mix(in srgb,var(--loss) 14%,transparent);color:var(--loss)}
+.score.u{background:color-mix(in srgb,var(--draw) 16%,transparent);color:var(--draw)}
+.score.o{font:500 13px var(--body);color:var(--muted)}
+.chev{color:var(--muted);font-size:13px;margin-left:4px}
+
+/* Spieldetail */
+.detail{padding:4px 14px 16px;border-top:1px dashed var(--line);display:grid;gap:14px}
+.detail h3{margin:10px 0 0;font:700 14px var(--display);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.scorers{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px 14px;font-size:14px}
+.scorers div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line);padding:3px 0}
+.timeline{display:grid;gap:2px;font-size:13px;max-height:320px;overflow:auto}
+.ev{display:grid;grid-template-columns:44px 52px 1fr;gap:8px;padding:3px 0}
+.ev .t{color:var(--muted);font-variant-numeric:tabular-nums}.ev .st{font-weight:600;font-variant-numeric:tabular-nums}
+.ev.us .p{color:var(--ball);font-weight:600}.ev.pen .p::after{content:"  2′";color:var(--loss);font-weight:600}
+.ev.misc{color:var(--muted)}
+a.src{font-size:13px;color:var(--muted)}
+
+/* Tabellen */
+.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{padding:9px 8px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{font:600 12px var(--body);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);position:sticky;top:0;background:var(--surface)}
+th:first-child,td:first-child{padding-left:14px}th:last-child,td:last-child{padding-right:14px}
+td.l,th.l{text-align:left}
+th.sort{cursor:pointer;user-select:none}th.sort.on{color:var(--ball)}
+th.sort button{all:unset;cursor:pointer}
+tr.us td{background:color-mix(in srgb,var(--ball) 12%,transparent);font-weight:600}
+td.name{white-space:normal;min-width:130px;text-align:left}
+td .nr{display:inline-block;width:26px;color:var(--muted);font-family:var(--display)}
+
+/* Tab-Leiste */
+nav.tabs{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:1px solid var(--line);z-index:5;
+  padding-bottom:env(safe-area-inset-bottom,0px);padding-left:max(0px,env(safe-area-inset-left,0px));padding-right:max(0px,env(safe-area-inset-right,0px))}
+nav.tabs .in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
+nav.tabs button{background:none;border:0;padding:9px 4px 8px;display:grid;justify-items:center;gap:3px;font-size:12px;color:var(--muted);cursor:pointer}
+nav.tabs button svg{width:24px;height:24px}
+nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
+.err{padding:16px}
+</style>
+<!--INHALT-ENDE-KOPF-->
+</head>
+<body>
+<!--INHALT-KOERPER-->
+<header class="top"><div class="wrap">
+  <div><h1 class="club" id="club">HSG Pohlheim</h1><div class="liga" id="liga">Regionalliga Männer</div></div>
+  <div class="stand" id="stand"></div>
+</div></header>
+<main class="wrap" id="view" aria-live="polite"><div class="note">Daten werden geladen …</div></main>
+<nav class="tabs" aria-label="Bereiche"><div class="in">
+  <button data-v="live" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5c3 2.6 3 14.4 0 17M12 3.5c-3 2.6-3 14.4 0 17M3.8 9.5h16.4M3.8 14.5h16.4"/></svg>Live</button>
+  <button data-v="spiele"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Spiele</button>
+  <button data-v="statistik"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 20V11M12 20V5M19 20v-7"/></svg>Statistik</button>
+  <button data-v="tabelle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16M4 12h16M4 18h16M9 4v16"/></svg>Tabelle</button>
+</div></nav>
+<script>
+(() => {
+  const $ = s => document.querySelector(s);
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+  let D = null, ansicht = "live", sortKey = "tore", sortDir = -1, offen = null;
+  try { ansicht = localStorage.getItem("ansicht") || "live"; } catch (e) {}
+
+  const wann = s => { const [d,m,y] = s.datum.split(".").map(Number); const [h,mi] = (s.zeit||"00:00").split(":").map(Number); return new Date(y, m-1, d, h, mi); };
+  const wir = n => (n||"").toLowerCase().includes(D.mannschaft.toLowerCase());
+  const gegner = s => wir(s.heim) ? s.gast : s.heim;
+  const daheim = s => wir(s.heim);
+  const wertung = s => { if (!s.ergebnis) return ""; const [a,b] = s.ergebnis.split(":").map(Number); const [x,y] = daheim(s)?[a,b]:[b,a]; return x>y?"s":x<y?"n":"u"; };
+  const datumLang = d => d.toLocaleDateString("de-DE",{weekday:"short",day:"2-digit",month:"2-digit",year:"numeric"});
+  const quote = (a,b) => b ? Math.round(a/b*100)+" %" : "–";
+
+  function render() {
+    document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-current", b.dataset.v===ansicht ? "page" : "false"));
+    const v = $("#view");
+    if (!D) return;
+    v.innerHTML = (D.vorschau ? `<div class="note">Vorschau mit dem Datenstand vom 17.11.2026. Nach dem ersten automatischen Abruf kommen alle Zahlen vollständig aus den nuLiga-Spielberichten.</div>` : "")
+      + ({live, spiele, statistik, tabelle}[ansicht] || live)();
+    if (ansicht === "live") ticke();
+  }
+
+  // ---------- Live
+  function live() {
+    const jetzt = new Date();
+    const kommende = D.spiele.filter(s => wann(s).getTime() + 2.5*3600e3 > jetzt).sort((a,b)=>wann(a)-wann(b));
+    const naechstes = kommende[0];
+    const gespielt = D.spiele.filter(s => s.ergebnis).sort((a,b)=>wann(b)-wann(a));
+    const letztes = gespielt[0];
+    const t = D.tabelle.find(r => wir(r.mannschaft));
+    let h = "";
+    if (naechstes) {
+      const start = wann(naechstes), laeuft = jetzt >= start - 15*60e3;
+      h += `<section class="card next">
+        <div class="kicker">${laeuft ? '<span class="pill live">Spiel läuft</span>' : "Nächstes Spiel"}</div>
+        <div class="match"><div class="team ${daheim(naechstes)?"us":""}">${esc(naechstes.heim)}</div><div class="vs">gegen</div><div class="team ${daheim(naechstes)?"":"us"}">${esc(naechstes.gast)}</div></div>
+        <div class="when">${datumLang(start)}, ${esc(naechstes.zeit)} Uhr · ${daheim(naechstes)?"Heimspiel":"Auswärtsspiel"}</div>
+        ${laeuft ? "" : `<div class="count" id="count" data-t="${start.getTime()}"></div>`}
+        <a class="btn" href="${esc(D.live_ticker_url)}" target="_blank" rel="noopener">${laeuft ? "Live-Ticker öffnen" : "Zum Live-Ticker der Liga"}</a>
+      </section>`;
+    }
+    if (t) h += `<h2>Saison bisher</h2><div class="kpis"><div><b class="num">${t.rang}.</b><span>Platz</span></div><div><b class="num">${esc(t.punkte)}</b><span>Punkte</span></div><div><b class="num">${esc(t.tore)}</b><span>Tore</span></div></div>`;
+    if (letztes) h += `<h2>Letztes Ergebnis</h2><div class="card games">${spielZeile(letztes)}</div>`;
+    return h;
+  }
+  function ticke() {
+    const el = $("#count"); if (!el) return;
+    const rest = Math.max(0, +el.dataset.t - Date.now());
+    const d = Math.floor(rest/864e5), h = Math.floor(rest%864e5/36e5), m = Math.floor(rest%36e5/6e4);
+    el.innerHTML = `<div><b class="num">${d}</b><span>Tage</span></div><div><b class="num">${h}</b><span>Std.</span></div><div><b class="num">${m}</b><span>Min.</span></div>`;
+  }
+  setInterval(() => { if (ansicht === "live") ticke(); }, 30000);
+
+  // ---------- Spiele
+  function spielZeile(s) {
+    const w = wertung(s), d = wann(s), vorbei = d < new Date();
+    const hatBericht = s.meeting && D.berichte && D.berichte[s.meeting];
+    const sc = s.ergebnis ? `<span class="score ${w}">${daheim(s) ? esc(s.ergebnis) : esc(s.ergebnis.split(":").reverse().join(":"))}</span>`
+             : `<span class="score o">${vorbei ? "Ergebnis folgt" : esc(s.zeit)+" Uhr"}</span>`;
+    const id = s.meeting || s.nr;
+    return `<button class="game ${hatBericht?"has":""}" data-id="${esc(id)}" ${hatBericht?`aria-expanded="${offen===id}"`:""}>
+      <span class="d">${esc(s.tag)}<b>${esc(s.datum.slice(0,5))}</b></span>
+      <span class="o"><b>${daheim(s)?"vs.":"bei"} ${esc(gegner(s))}</b><span>${daheim(s)?"Heim":"Auswärts"}${s.halbzeit?` · Halbzeit ${esc(daheim(s)?s.halbzeit:s.halbzeit.split(":").reverse().join(":"))}`:""}${hatBericht?' <span class="chev">Details</span>':""}</span></span>
+      ${sc}</button>${hatBericht && offen===id ? detail(s) : ""}`;
+  }
+  function spiele() {
+    const liste = [...D.spiele].sort((a,b)=>wann(a)-wann(b));
+    const gruppen = {};
+    liste.forEach(s => { const k = wann(s).toLocaleDateString("de-DE",{month:"long",year:"numeric"}); (gruppen[k] ||= []).push(s); });
+    return Object.entries(gruppen).map(([m, ss]) => `<h2>${esc(m)}</h2><div class="card games">${ss.map(spielZeile).join("")}</div>`).join("");
+  }
+  function detail(s) {
+    const b = D.berichte[s.meeting];
+    const unser = b.teams.find(t => wir(t.name)) || b.teams[0];
+    const ander = b.teams.find(t => t !== unser);
+    const torliste = t => t.spieler.filter(p=>p.tore>0).sort((a,c)=>c.tore-a.tore)
+      .map(p=>`<div><span><span class="nr">${p.nr}</span>${esc(p.name)}</span><span class="num">${p.tore}${p["7m_versuche"]?` <small>(${p["7m_tore"]}/${p["7m_versuche"]} 7m)</small>`:""}</span></div>`).join("");
+    const unsereSeite = wir(s.heim) ? "Heim" : "Gast";
+    const ev = b.verlauf.filter(e => /Tor|Minuten|Auszeit|Karte|Disq|Bericht/.test(e.ereignis)).map(e => {
+      const tor = /Tor/.test(e.ereignis) && !/ohne Tor/.test(e.ereignis);
+      const cls = (e.seite===unsereSeite ? "us " : "") + (/Minuten/.test(e.ereignis) ? "pen" : tor ? "" : "misc");
+      const stand = e.stand && unsereSeite==="Gast" ? e.stand.split(":").reverse().join(":") : e.stand;
+      return `<div class="ev ${cls}"><span class="t">${esc(e.zeit)}</span><span class="st">${esc(tor?stand:"")}</span><span class="p">${esc(/Minuten/.test(e.ereignis)?e.person:tor?e.person+(/7m/.test(e.ereignis)?" (7m)":""):e.ereignis+(e.person?" – "+e.person:""))}</span></div>`;
+    }).join("");
+    return `<div class="detail">
+      <div><h3>Tore ${esc(unser.name)}</h3><div class="scorers">${torliste(unser)}</div></div>
+      ${ander ? `<div><h3>Tore ${esc(ander.name)}</h3><div class="scorers">${torliste(ander)}</div></div>` : ""}
+      <div><h3>Spielverlauf</h3><div class="timeline">${ev}</div></div>
+      <a class="src" href="${esc(D.quelle.replace("groupPage?","groupMeetingReport?meeting="+s.meeting+"&"))}" target="_blank" rel="noopener">Offizieller Spielbericht bei nuLiga</a>
+    </div>`;
+  }
+
+  // ---------- Statistik
+  const SPALTEN = [["nr","#",0],["name","Spieler",0],["einsaetze","Sp.",1],["tore","Tore",1],["tore_pro_spiel","Ø",1],["7m","7m",1],["7m_quote","7m %",1],["zeitstrafen","2′",1],["gelb","Gelb",1],["rot","Rot",1]];
+  function wertVon(p,k){ if(k==="7m") return p["7m_tore"]; if(k==="7m_quote") return p["7m_versuche"]? p["7m_tore"]/p["7m_versuche"] : -1; return p[k]; }
+  function statistik() {
+    const rows = [...D.spieler].sort((a,b)=>{ const x=wertVon(a,sortKey), y=wertVon(b,sortKey); if (x==null&&y==null) return 0; if (x==null) return 1; if (y==null) return -1; return (typeof x==="string" ? x.localeCompare(y) : x-y) * sortDir; });
+    const sum = k => D.spieler.reduce((s,p)=>s+(p[k]||0),0);
+    const n = v => v==null ? "–" : v;
+    return `<h2>Spieler ${esc(D.mannschaft)}</h2><div class="card tbl"><table>
+      <thead><tr>${SPALTEN.map(([k,l])=>`<th class="sort ${k==="name"||k==="nr"?"l":""} ${sortKey===k?"on":""}" aria-sort="${sortKey===k?(sortDir<0?"descending":"ascending"):"none"}"><button data-sort="${k}">${l}${sortKey===k?(sortDir<0?" ↓":" ↑"):""}</button></th>`).join("")}</tr></thead>
+      <tbody>${rows.map(p=>`<tr><td class="l num">${n(p.nr)}</td><td class="name">${esc(p.name)}</td><td>${n(p.einsaetze)}</td><td><b>${n(p.tore)}</b></td><td>${p.tore_pro_spiel==null?"–":p.tore_pro_spiel.toFixed(1).replace(".",",")}</td><td>${p["7m_versuche"]?p["7m_tore"]+"/"+p["7m_versuche"]:"–"}</td><td>${quote(p["7m_tore"],p["7m_versuche"])}</td><td>${p.zeitstrafen||"–"}</td><td>${p.gelb||"–"}</td><td>${p.rot||"–"}</td></tr>`).join("")}</tbody>
+    </table></div>
+    <div class="note">Sp. = Einsätze laut Spielbericht · Ø = Tore pro Einsatz · 2′ = Zeitstrafen. Mannschaft gesamt: ${sum("7m_tore")} von ${sum("7m_versuche")} Siebenmetern verwandelt, ${sum("zeitstrafen")} Zeitstrafen. Tippe auf eine Spalte zum Sortieren.</div>`;
+  }
+
+  // ---------- Tabelle
+  function tabelle() {
+    return `<h2>${esc(D.liga)}</h2><div class="card tbl"><table>
+      <thead><tr><th class="l">#</th><th class="l">Mannschaft</th><th>Sp.</th><th>S</th><th>U</th><th>N</th><th>Tore</th><th>+/−</th><th>Pkt.</th></tr></thead>
+      <tbody>${D.tabelle.map(r=>`<tr class="${wir(r.mannschaft)?"us":""}"><td class="l num">${r.rang}</td><td class="name">${esc(r.mannschaft)}</td><td>${r.spiele}</td><td>${r.s}</td><td>${r.u}</td><td>${r.n}</td><td>${esc(r.tore)}</td><td>${esc(r.diff)}</td><td><b>${esc(r.punkte)}</b></td></tr>`).join("")}</tbody>
+    </table></div>
+    <a class="src" href="${esc(D.quelle)}" target="_blank" rel="noopener">Quelle: nuLiga Hessischer Handball-Verband</a>`;
+  }
+
+  // ---------- Ereignisse
+  document.addEventListener("click", e => {
+    const tab = e.target.closest("nav.tabs button");
+    if (tab) { ansicht = tab.dataset.v; offen = null; try { localStorage.setItem("ansicht", ansicht); } catch (x) {} render(); window.scrollTo(0,0); return; }
+    const so = e.target.closest("[data-sort]");
+    if (so) { const k = so.dataset.sort; sortDir = sortKey===k ? -sortDir : (k==="name"||k==="nr" ? 1 : -1); sortKey = k; render(); return; }
+    const g = e.target.closest(".game.has");
+    if (g) { offen = offen===g.dataset.id ? null : g.dataset.id; render(); }
+  });
+
+  fetch("data/app.json", {cache: "no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+    D = d;
+    $("#club").textContent = d.mannschaft; $("#liga").textContent = d.liga;
+    const t = new Date(d.aktualisiert);
+    $("#stand").textContent = "Stand " + t.toLocaleDateString("de-DE") + ", " + t.toLocaleTimeString("de-DE",{hour:"2-digit",minute:"2-digit"}) + " Uhr";
+    render();
+  }).catch(() => { $("#view").innerHTML = `<div class="card err">Die Daten konnten nicht geladen werden. Prüfe die Internetverbindung und öffne die App erneut. Wenn das bleibt: In GitHub unter „Actions“ nachsehen, ob der letzte Datenabruf grün ist.</div>`; });
+})();
+</script>
+<!--INHALT-ENDE-->
+</body>
+</html>

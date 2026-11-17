@@ -1,0 +1,10 @@
+{
+  "verband_url": "https://hhv-handball.liga.nu",
+  "saison": "HHV 26/27",
+  "staffel": "492640",
+  "liga_name": "Regionalliga Männer Hessen 2026/27",
+  "mannschaft": "HSG Pohlheim",
+  "teamtable": "2204526",
+  "live_ticker_url": "https://hbde-live.liga.nu/nuScoreLive/#/groups/492640",
+  "pause_zwischen_abrufen_sekunden": 3
+}
