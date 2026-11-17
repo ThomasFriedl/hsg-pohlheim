@@ -1,4 +1,3 @@
-yaml
 # Holt automatisch neue Handballdaten von nuLiga und speichert sie im Repo.
 name: Daten aktualisieren
 
