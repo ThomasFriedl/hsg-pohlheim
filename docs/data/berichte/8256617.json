@@ -1,0 +1,891 @@
+{
+ "meeting": "8256617",
+ "teams": [
+  {
+   "name": "TV Groß-Umstadt",
+   "spieler": [
+    {
+     "nr": 8,
+     "name": "Acic, David",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 9,
+     "name": "Braun, Luca",
+     "tore": 14,
+     "7m_tore": 6,
+     "7m_versuche": 6,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Ivankovic, Marko",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 14,
+     "name": "Holschuh, Moritz",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 15,
+     "name": "Dries, Tom Lukas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Funck, Rico",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Becejac, Nikola",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 26,
+     "name": "Schmitt, Lukas",
+     "tore": 8,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 33,
+     "name": "Müller, Niklas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Iserinc, Can",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 92,
+     "name": "Keller, Philipp",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 97,
+     "name": "Müller, Matti",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 98,
+     "name": "Braun, Maximilian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "TSV Vellmar",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Eberhardt, Noah",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 9,
+     "name": "Reichmann, Tobias",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Bergmann, Tim-Henrik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Gumula, Christian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Perez Fernandez, Andreu",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 14,
+     "name": "Range, Tim",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 20,
+     "name": "Denn, Alexander",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Schopf, Mathis",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 22,
+     "name": "Adam, Simon",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Badenheuer, Louis",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 25,
+     "name": "Koch, Jonas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 31,
+     "name": "Nácher Selma, Arturo",
+     "tore": 12,
+     "7m_tore": 4,
+     "7m_versuche": 4,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 41,
+     "name": "Manojlovic, Bojan",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 49,
+     "name": "Scholler, Tom",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 65,
+     "name": "Linke, Jan Philipp",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 77,
+     "name": "Drönner, Frederik",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 1,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Gast",
+   "zeit": "00:30",
+   "stand": "0:1",
+   "ereignis": "Tor",
+   "person": "21 Schopf, Mathis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "02:07",
+   "stand": "1:1",
+   "ereignis": "Tor",
+   "person": "8 Acic, David"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "02:36",
+   "stand": "2:1",
+   "ereignis": "Tor",
+   "person": "17 Funck, Rico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:39",
+   "stand": "3:1",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "05:45",
+   "stand": "4:1",
+   "ereignis": "Tor",
+   "person": "17 Funck, Rico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:32",
+   "stand": "5:1",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "06:42",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:00",
+   "stand": "5:2",
+   "ereignis": "Tor",
+   "person": "25 Koch, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:14",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "25 Koch, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "08:08",
+   "stand": "6:2",
+   "ereignis": "7m mit Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:44",
+   "stand": "6:3",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "09:26",
+   "stand": "7:3",
+   "ereignis": "7m mit Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:04",
+   "stand": "7:4",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:11",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "12 Gumula, Christian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "11:17",
+   "stand": "8:4",
+   "ereignis": "Tor",
+   "person": "33 Müller, Niklas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "12:36",
+   "stand": "9:4",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "",
+   "zeit": "12:43",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:19",
+   "stand": "10:4",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:39",
+   "stand": "11:4",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:52",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "92 Keller, Philipp"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "14:54",
+   "stand": "11:5",
+   "ereignis": "7m mit Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:27",
+   "stand": "12:5",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:41",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "17 Funck, Rico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "15:44",
+   "stand": "12:6",
+   "ereignis": "7m mit Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "16:30",
+   "stand": "13:6",
+   "ereignis": "7m mit Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "16:50",
+   "stand": "13:7",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "17:48",
+   "stand": "13:8",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "18:10",
+   "stand": "14:8",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "18:59",
+   "stand": "14:9",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "19:40",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "",
+   "zeit": "21:49",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "21:49",
+   "stand": "14:10",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "23:05",
+   "stand": "14:11",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "23:31",
+   "stand": "15:11",
+   "ereignis": "Tor",
+   "person": "34 Iserinc, Can"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "24:43",
+   "stand": "15:12",
+   "ereignis": "Tor",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "25:15",
+   "stand": "16:12",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:54",
+   "stand": "16:13",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "26:44",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:59",
+   "stand": "17:13",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "27:45",
+   "stand": "18:13",
+   "ereignis": "Tor",
+   "person": "14 Holschuh, Moritz"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "29:50",
+   "stand": "19:13",
+   "ereignis": "Tor",
+   "person": "17 Funck, Rico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "31:21",
+   "stand": "20:13",
+   "ereignis": "Tor",
+   "person": "17 Funck, Rico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "32:03",
+   "stand": "21:13",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "33:50",
+   "stand": "22:13",
+   "ereignis": "Tor",
+   "person": "8 Acic, David"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:04",
+   "stand": "22:14",
+   "ereignis": "Tor",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "34:42",
+   "stand": "23:14",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:17",
+   "stand": "23:15",
+   "ereignis": "Tor",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "35:29",
+   "stand": "24:15",
+   "ereignis": "Tor",
+   "person": "8 Acic, David"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:56",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "35:56",
+   "stand": "25:15",
+   "ereignis": "7m mit Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "36:36",
+   "stand": "25:16",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "37:01",
+   "stand": "26:16",
+   "ereignis": "Tor",
+   "person": "34 Iserinc, Can"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "37:43",
+   "stand": "27:16",
+   "ereignis": "Tor",
+   "person": "33 Müller, Niklas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "38:19",
+   "stand": "28:16",
+   "ereignis": "Tor",
+   "person": "17 Funck, Rico"
+  },
+  {
+   "seite": "",
+   "zeit": "38:21",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "38:51",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "40:01",
+   "stand": "28:17",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "40:29",
+   "stand": "28:18",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "40:54",
+   "stand": "29:18",
+   "ereignis": "Tor",
+   "person": "34 Iserinc, Can"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "41:44",
+   "stand": "30:18",
+   "ereignis": "Tor",
+   "person": "8 Acic, David"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "42:14",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "92 Keller, Philipp"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "42:28",
+   "stand": "30:19",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "43:03",
+   "stand": "31:19",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "43:27",
+   "stand": "31:20",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "43:58",
+   "stand": "31:21",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "45:51",
+   "stand": "31:22",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:48",
+   "stand": "32:22",
+   "ereignis": "Tor",
+   "person": "97 Müller, Matti"
+  },
+  {
+   "seite": "",
+   "zeit": "48:58",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "48:58",
+   "stand": "32:23",
+   "ereignis": "Tor",
+   "person": "41 Manojlovic, Bojan"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "49:24",
+   "stand": "33:23",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:14",
+   "stand": "33:24",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:41",
+   "stand": "34:24",
+   "ereignis": "Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "51:57",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "21 Schopf, Mathis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "52:13",
+   "stand": "35:24",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "53:38",
+   "stand": "36:24",
+   "ereignis": "7m mit Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "55:32",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "15 Dries, Tom Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "55:34",
+   "stand": "36:25",
+   "ereignis": "7m mit Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "56:11",
+   "stand": "37:25",
+   "ereignis": "Tor",
+   "person": "97 Müller, Matti"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:29",
+   "stand": "37:26",
+   "ereignis": "Tor",
+   "person": "25 Koch, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "57:11",
+   "stand": "38:26",
+   "ereignis": "7m mit Tor",
+   "person": "9 Braun, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "57:39",
+   "stand": "38:27",
+   "ereignis": "7m mit Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:58",
+   "stand": "38:28",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:32",
+   "stand": "39:28",
+   "ereignis": "Tor",
+   "person": "26 Schmitt, Lukas"
+  }
+ ],
+ "ergebnis": "39:28",
+ "halbzeit": "19:13",
+ "ort": "Sporthalle Ernst-Reuter-Schule"
+}

@@ -1,0 +1,881 @@
+{
+ "meeting": "8256481",
+ "teams": [
+  {
+   "name": "TV Petterweil",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Köpler, Henry",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 4,
+     "name": "Henneberger, Jonas",
+     "tore": 5,
+     "7m_tore": 3,
+     "7m_versuche": 4,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Hopp, Luis-Arjen",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 14,
+     "name": "Pfeiffer, Benedikt",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 15,
+     "name": "Ergül, Mika",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 28,
+     "name": "Pape, Björn",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 31,
+     "name": "Asam, Maximilian",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 32,
+     "name": "Stahl, Felix",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Habenicht, Martin",
+     "tore": 10,
+     "7m_tore": 1,
+     "7m_versuche": 3,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 37,
+     "name": "Wassberg, Florian Lars",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 44,
+     "name": "Rudolf, Jacob",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 55,
+     "name": "Pletz, Stephan",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 63,
+     "name": "Burkert, Laurin Aaron",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 71,
+     "name": "Ullrich, Erik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "HSG Dotzheim/Schierstein",
+   "spieler": [
+    {
+     "nr": 3,
+     "name": "Klein, Björn Niklas",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 5,
+     "name": "Blumenthal, Paul",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 3,
+     "rot": 1
+    },
+    {
+     "nr": 8,
+     "name": "Muchlinin, Nikita",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 9,
+     "name": "Kletsch, Dustin",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Conradi, Christian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Kunadt, David",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 19,
+     "name": "Schmidtmann, Leander",
+     "tore": 6,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Denard, John",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 23,
+     "name": "Lipp, Florian",
+     "tore": 5,
+     "7m_tore": 2,
+     "7m_versuche": 3,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 33,
+     "name": "Tomm, Fabian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Funk, Tristan",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 43,
+     "name": "Teuner, Marc",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 63,
+     "name": "Nitzke, Marven",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 92,
+     "name": "Bonin, Paul",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Gast",
+   "zeit": "02:46",
+   "stand": "0:1",
+   "ereignis": "Tor",
+   "person": "23 Lipp, Florian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "03:09",
+   "stand": "1:1",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "03:17",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "34 Funk, Tristan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "05:29",
+   "stand": "1:2",
+   "ereignis": "Tor",
+   "person": "63 Nitzke, Marven"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "06:16",
+   "stand": "1:3",
+   "ereignis": "Tor",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "06:49",
+   "stand": "1:4",
+   "ereignis": "Tor",
+   "person": "23 Lipp, Florian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "07:18",
+   "stand": "2:4",
+   "ereignis": "Tor",
+   "person": "28 Pape, Björn"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:00",
+   "stand": "2:5",
+   "ereignis": "Tor",
+   "person": "19 Schmidtmann, Leander"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "08:11",
+   "stand": "3:5",
+   "ereignis": "Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "08:55",
+   "stand": "4:5",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "09:10",
+   "stand": "5:5",
+   "ereignis": "Tor",
+   "person": "44 Rudolf, Jacob"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "09:51",
+   "stand": "5:6",
+   "ereignis": "Tor",
+   "person": "43 Teuner, Marc"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "11:16",
+   "stand": "6:6",
+   "ereignis": "Tor",
+   "person": "28 Pape, Björn"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "11:26",
+   "stand": "6:7",
+   "ereignis": "Tor",
+   "person": "17 Kunadt, David"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "11:59",
+   "stand": "7:7",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "13:02",
+   "stand": "8:7",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:38",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "44 Rudolf, Jacob"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "16:07",
+   "stand": "8:8",
+   "ereignis": "Tor",
+   "person": "3 Klein, Björn Niklas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "16:16",
+   "stand": "9:8",
+   "ereignis": "Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "17:11",
+   "stand": "9:9",
+   "ereignis": "Tor",
+   "person": "34 Funk, Tristan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "17:21",
+   "stand": "9:10",
+   "ereignis": "Tor",
+   "person": "34 Funk, Tristan"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "18:25",
+   "stand": "10:10",
+   "ereignis": "7m mit Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "19:42",
+   "stand": "10:10",
+   "ereignis": "7m ohne Tor",
+   "person": "43 Teuner, Marc"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "20:43",
+   "stand": "10:11",
+   "ereignis": "Tor",
+   "person": "3 Klein, Björn Niklas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "21:01",
+   "stand": "10:12",
+   "ereignis": "Tor",
+   "person": "19 Schmidtmann, Leander"
+  },
+  {
+   "seite": "",
+   "zeit": "21:08",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "22:16",
+   "stand": "10:13",
+   "ereignis": "Tor",
+   "person": "3 Klein, Björn Niklas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "23:16",
+   "stand": "11:13",
+   "ereignis": "Tor",
+   "person": "55 Pletz, Stephan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "24:13",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "3 Klein, Björn Niklas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "24:20",
+   "stand": "11:13",
+   "ereignis": "7m ohne Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "25:31",
+   "stand": "12:13",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "",
+   "zeit": "26:39",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "28:59",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "55 Pletz, Stephan"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "29:56",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "28 Pape, Björn"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "29:57",
+   "stand": "12:14",
+   "ereignis": "7m mit Tor",
+   "person": "23 Lipp, Florian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "30:40",
+   "stand": "12:15",
+   "ereignis": "Tor",
+   "person": "23 Lipp, Florian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "31:19",
+   "stand": "13:15",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "32:07",
+   "stand": "13:16",
+   "ereignis": "Tor",
+   "person": "19 Schmidtmann, Leander"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "32:10",
+   "stand": "14:16",
+   "ereignis": "Tor",
+   "person": "44 Rudolf, Jacob"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:47",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "35:55",
+   "stand": "15:16",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "36:31",
+   "stand": "15:17",
+   "ereignis": "Tor",
+   "person": "19 Schmidtmann, Leander"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "36:42",
+   "stand": "16:17",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "37:24",
+   "stand": "17:17",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "38:41",
+   "stand": "18:17",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "",
+   "zeit": "38:44",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:24",
+   "stand": "18:18",
+   "ereignis": "Tor",
+   "person": "63 Nitzke, Marven"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:25",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:46",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "63 Nitzke, Marven"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "39:53",
+   "stand": "19:18",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "40:54",
+   "stand": "19:19",
+   "ereignis": "Tor",
+   "person": "43 Teuner, Marc"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "41:13",
+   "stand": "20:19",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "41:56",
+   "stand": "20:20",
+   "ereignis": "Tor",
+   "person": "19 Schmidtmann, Leander"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "42:44",
+   "stand": "20:21",
+   "ereignis": "Tor",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "44:42",
+   "stand": "21:21",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "",
+   "zeit": "46:12",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:45",
+   "stand": "22:21",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "47:08",
+   "stand": "23:21",
+   "ereignis": "Tor",
+   "person": "44 Rudolf, Jacob"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "49:51",
+   "stand": "23:21",
+   "ereignis": "7m ohne Tor",
+   "person": "23 Lipp, Florian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:09",
+   "stand": "24:21",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:40",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "32 Stahl, Felix"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:40",
+   "stand": "24:22",
+   "ereignis": "Tor",
+   "person": "63 Nitzke, Marven"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "51:20",
+   "stand": "25:22",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "51:36",
+   "stand": "25:23",
+   "ereignis": "Tor",
+   "person": "9 Kletsch, Dustin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "52:09",
+   "stand": "25:24",
+   "ereignis": "Tor",
+   "person": "9 Kletsch, Dustin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "52:39",
+   "stand": "26:24",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "53:22",
+   "stand": "27:24",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:14",
+   "stand": "27:25",
+   "ereignis": "Tor",
+   "person": "3 Klein, Björn Niklas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:14",
+   "stand": "27:26",
+   "ereignis": "Tor",
+   "person": "9 Kletsch, Dustin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:14",
+   "stand": "27:27",
+   "ereignis": "Tor",
+   "person": "19 Schmidtmann, Leander"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:14",
+   "stand": "27:28",
+   "ereignis": "Tor",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:33",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:33",
+   "stand": "",
+   "ereignis": "ohne Bericht",
+   "person": "5 Blumenthal, Paul"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "54:35",
+   "stand": "27:28",
+   "ereignis": "7m ohne Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:09",
+   "stand": "27:29",
+   "ereignis": "Tor",
+   "person": "3 Klein, Björn Niklas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "56:19",
+   "stand": "28:29",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:25",
+   "stand": "28:30",
+   "ereignis": "7m mit Tor",
+   "person": "23 Lipp, Florian"
+  },
+  {
+   "seite": "",
+   "zeit": "59:00",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:10",
+   "stand": "28:30",
+   "ereignis": "7m ohne Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "59:30",
+   "stand": "28:31",
+   "ereignis": "Tor",
+   "person": "63 Nitzke, Marven"
+  },
+  {
+   "seite": "",
+   "zeit": "59:49",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:49",
+   "stand": "29:31",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "60:00",
+   "stand": "29:32",
+   "ereignis": "Tor",
+   "person": "63 Nitzke, Marven"
+  }
+ ],
+ "ergebnis": "29:32",
+ "halbzeit": "12:14",
+ "ort": "Sporthalle Petterweil"
+}

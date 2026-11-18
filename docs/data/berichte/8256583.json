@@ -1,0 +1,887 @@
+{
+ "meeting": "8256583",
+ "teams": [
+  {
+   "name": "TuSpo Obernburg",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Bausch, Jonathan",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 7,
+     "name": "Mohr, Nicolas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Roos, Max",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Heinz, Magnus",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Raab, Tobias",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 23,
+     "name": "Steinbrecher, Leon",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 25,
+     "name": "Scheuring, Connor",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 26,
+     "name": "Budde, Urs",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Müller, Tom Nicolas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 29,
+     "name": "Kunkel, Jesper",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 3,
+     "rot": 1
+    },
+    {
+     "nr": 33,
+     "name": "Keck, Thomas",
+     "tore": 5,
+     "7m_tore": 1,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 52,
+     "name": "Szanto, Till",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 61,
+     "name": "Friedrich, Sandro",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 89,
+     "name": "Göpfert, Andre",
+     "tore": 2,
+     "7m_tore": 1,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 93,
+     "name": "Knabe, Konstantin",
+     "tore": 5,
+     "7m_tore": 1,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "TV Hersfeld",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Sauerbier, Theo",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 5,
+     "name": "Rehberg, Felix",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 6,
+     "name": "Bachus, Jannik",
+     "tore": 7,
+     "7m_tore": 2,
+     "7m_versuche": 5,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 7,
+     "name": "Hasselbach, Julius Max",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 8,
+     "name": "Dellmuth, Daniel",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 14,
+     "name": "Lüder genannt Lühr, Jonas",
+     "tore": 5,
+     "7m_tore": 1,
+     "7m_versuche": 3,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 15,
+     "name": "Ley, Julian",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 16,
+     "name": "Voß, Yannik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 22,
+     "name": "Hüter, Noah",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Kürten, Niklas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 25,
+     "name": "Wiegel, Sven",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 33,
+     "name": "Reinhardt, Fynn",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Reinhardt, Lasse",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 35,
+     "name": "Kümmel, Robin",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 76,
+     "name": "Thole, Julian",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Gast",
+   "zeit": "01:16",
+   "stand": "0:1",
+   "ereignis": "Tor",
+   "person": "25 Wiegel, Sven"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "02:02",
+   "stand": "0:2",
+   "ereignis": "Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "03:27",
+   "stand": "1:2",
+   "ereignis": "Tor",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:55",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "06:58",
+   "stand": "1:2",
+   "ereignis": "7m ohne Tor",
+   "person": "34 Reinhardt, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "09:05",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "7 Mohr, Nicolas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "09:15",
+   "stand": "1:2",
+   "ereignis": "7m ohne Tor",
+   "person": "76 Thole, Julian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "09:24",
+   "stand": "1:3",
+   "ereignis": "Tor",
+   "person": "76 Thole, Julian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:49",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "22 Hüter, Noah"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "10:59",
+   "stand": "2:3",
+   "ereignis": "7m mit Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "11:58",
+   "stand": "2:3",
+   "ereignis": "7m ohne Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "12:09",
+   "stand": "2:4",
+   "ereignis": "Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "12:11",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "12:46",
+   "stand": "3:4",
+   "ereignis": "Tor",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:53",
+   "stand": "4:4",
+   "ereignis": "Tor",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "15:24",
+   "stand": "4:5",
+   "ereignis": "Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:34",
+   "stand": "5:5",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "17:24",
+   "stand": "6:5",
+   "ereignis": "Tor",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "",
+   "zeit": "17:58",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "19:05",
+   "stand": "7:5",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "19:45",
+   "stand": "7:6",
+   "ereignis": "7m mit Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "20:41",
+   "stand": "8:6",
+   "ereignis": "Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "24:21",
+   "stand": "9:6",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:58",
+   "stand": "9:6",
+   "ereignis": "7m ohne Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:37",
+   "stand": "10:6",
+   "ereignis": "Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "27:03",
+   "stand": "10:7",
+   "ereignis": "7m mit Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "27:56",
+   "stand": "11:7",
+   "ereignis": "Tor",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "27:57",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "22 Hüter, Noah"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "28:54",
+   "stand": "12:7",
+   "ereignis": "Tor",
+   "person": "52 Szanto, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "29:50",
+   "stand": "12:8",
+   "ereignis": "Tor",
+   "person": "33 Reinhardt, Fynn"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "30:32",
+   "stand": "13:8",
+   "ereignis": "Tor",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "31:02",
+   "stand": "13:9",
+   "ereignis": "Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "32:20",
+   "stand": "14:9",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "33:08",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "33:24",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "33:24",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "A Hess, Kerstin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "33:26",
+   "stand": "14:9",
+   "ereignis": "7m ohne Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "33:31",
+   "stand": "14:10",
+   "ereignis": "Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "34:04",
+   "stand": "15:10",
+   "ereignis": "Tor",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:16",
+   "stand": "15:11",
+   "ereignis": "Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "34:55",
+   "stand": "16:11",
+   "ereignis": "Tor",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "35:50",
+   "stand": "17:11",
+   "ereignis": "Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "37:30",
+   "stand": "18:11",
+   "ereignis": "Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "40:32",
+   "stand": "19:11",
+   "ereignis": "Tor",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "41:33",
+   "stand": "19:12",
+   "ereignis": "Tor",
+   "person": "34 Reinhardt, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "41:36",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "",
+   "zeit": "41:53",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "42:10",
+   "stand": "20:12",
+   "ereignis": "Tor",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "42:34",
+   "stand": "20:13",
+   "ereignis": "Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "44:41",
+   "stand": "21:13",
+   "ereignis": "Tor",
+   "person": "27 Müller, Tom Nicolas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "45:20",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "46:29",
+   "stand": "21:14",
+   "ereignis": "Tor",
+   "person": "34 Reinhardt, Lasse"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "47:13",
+   "stand": "21:15",
+   "ereignis": "Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "48:41",
+   "stand": "22:15",
+   "ereignis": "7m mit Tor",
+   "person": "89 Göpfert, Andre"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "49:38",
+   "stand": "23:15",
+   "ereignis": "Tor",
+   "person": "52 Szanto, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:14",
+   "stand": "23:16",
+   "ereignis": "Tor",
+   "person": "5 Rehberg, Felix"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:29",
+   "stand": "24:16",
+   "ereignis": "Tor",
+   "person": "27 Müller, Tom Nicolas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:44",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:44",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:44",
+   "stand": "",
+   "ereignis": "ohne Bericht",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:47",
+   "stand": "24:16",
+   "ereignis": "7m ohne Tor",
+   "person": "6 Bachus, Jannik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "51:39",
+   "stand": "24:17",
+   "ereignis": "Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "52:04",
+   "stand": "24:18",
+   "ereignis": "Tor",
+   "person": "15 Ley, Julian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "53:04",
+   "stand": "25:18",
+   "ereignis": "Tor",
+   "person": "52 Szanto, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "53:34",
+   "stand": "25:19",
+   "ereignis": "Tor",
+   "person": "15 Ley, Julian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "54:02",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:06",
+   "stand": "25:19",
+   "ereignis": "7m ohne Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:38",
+   "stand": "25:20",
+   "ereignis": "Tor",
+   "person": "15 Ley, Julian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "54:38",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "52 Szanto, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "55:29",
+   "stand": "25:21",
+   "ereignis": "Tor",
+   "person": "15 Ley, Julian"
+  },
+  {
+   "seite": "",
+   "zeit": "55:42",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "55:51",
+   "stand": "26:21",
+   "ereignis": "Tor",
+   "person": "89 Göpfert, Andre"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:35",
+   "stand": "26:22",
+   "ereignis": "Tor",
+   "person": "15 Ley, Julian"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:55",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "2 Sauerbier, Theo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "56:58",
+   "stand": "27:22",
+   "ereignis": "7m mit Tor",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "57:26",
+   "stand": "27:23",
+   "ereignis": "7m mit Tor",
+   "person": "14 Lüder genannt Lühr, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "57:45",
+   "stand": "28:23",
+   "ereignis": "Tor",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "58:58",
+   "stand": "29:23",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "59:13",
+   "stand": "29:24",
+   "ereignis": "Tor",
+   "person": "22 Hüter, Noah"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:28",
+   "stand": "30:24",
+   "ereignis": "Tor",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:59",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "33 Keck, Thomas"
+  }
+ ],
+ "ergebnis": "30:24",
+ "halbzeit": "12:8",
+ "ort": "Valentin-Ballmann-Halle Obernburg"
+}

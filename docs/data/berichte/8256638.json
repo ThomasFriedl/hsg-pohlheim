@@ -1,0 +1,830 @@
+{
+ "meeting": "8256638",
+ "teams": [
+  {
+   "name": "HSG Breckenh./Wallau/Massenh.",
+   "spieler": [
+    {
+     "nr": 6,
+     "name": "Crecelius, Lukas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Göttert, Jannik",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Vormbrock, Simon",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Gottron, Henry",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Obergfell, Malte",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 18,
+     "name": "Beer, Lennard",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 1
+    },
+    {
+     "nr": 19,
+     "name": "Bürkle, Nick",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 20,
+     "name": "Schermuly, Sebastian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Mester, Joshua",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 22,
+     "name": "Grosbach, Ben Henrik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 23,
+     "name": "Kummerer, Lukas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Quandt, Dennis",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 31,
+     "name": "Lunnebach, Julius",
+     "tore": 6,
+     "7m_tore": 2,
+     "7m_versuche": 3,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Herbertz, Tim-Levi",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 41,
+     "name": "Lange, Jonas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 71,
+     "name": "Krawczak, Dominik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "TSG Offenbach-Bürgel",
+   "spieler": [
+    {
+     "nr": 1,
+     "name": "Hoppenstaedt, Marvin",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 4,
+     "name": "Eck, Leon",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Lubar, David",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Pjanic, Edi",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Lehmann, Tobias",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 16,
+     "name": "Khan, Saad",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Köbe, Bennet",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 19,
+     "name": "Kreuzkam, Peer",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 20,
+     "name": "Büdel, Nico",
+     "tore": 6,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Lenort, Nils",
+     "tore": 6,
+     "7m_tore": 2,
+     "7m_versuche": 2,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Gjorgjijeski, Klime",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 26,
+     "name": "Gaydoul, Luca",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Hofmann, Christopher",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 29,
+     "name": "Schlereth, Jonas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 39,
+     "name": "Goßmann, Jonas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 66,
+     "name": "Moock, Max",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Heim",
+   "zeit": "01:12",
+   "stand": "1:0",
+   "ereignis": "Tor",
+   "person": "11 Vormbrock, Simon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "01:55",
+   "stand": "1:1",
+   "ereignis": "Tor",
+   "person": "17 Köbe, Bennet"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "04:12",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "05:22",
+   "stand": "2:1",
+   "ereignis": "Tor",
+   "person": "11 Vormbrock, Simon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "06:15",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "10 Lubar, David"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:53",
+   "stand": "3:1",
+   "ereignis": "Tor",
+   "person": "13 Gottron, Henry"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:21",
+   "stand": "3:2",
+   "ereignis": "Tor",
+   "person": "26 Gaydoul, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:32",
+   "stand": "3:3",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "09:03",
+   "stand": "4:3",
+   "ereignis": "Tor",
+   "person": "34 Herbertz, Tim-Levi"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:20",
+   "stand": "4:4",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:53",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "10:57",
+   "stand": "5:4",
+   "ereignis": "7m mit Tor",
+   "person": "31 Lunnebach, Julius"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "11:30",
+   "stand": "5:5",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "13:14",
+   "stand": "6:5",
+   "ereignis": "Tor",
+   "person": "31 Lunnebach, Julius"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "13:58",
+   "stand": "6:6",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:37",
+   "stand": "7:6",
+   "ereignis": "Tor",
+   "person": "31 Lunnebach, Julius"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:51",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "11 Vormbrock, Simon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:28",
+   "stand": "8:6",
+   "ereignis": "Tor",
+   "person": "10 Göttert, Jannik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "16:04",
+   "stand": "8:7",
+   "ereignis": "Tor",
+   "person": "17 Köbe, Bennet"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "16:34",
+   "stand": "9:7",
+   "ereignis": "Tor",
+   "person": "13 Gottron, Henry"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "16:56",
+   "stand": "10:7",
+   "ereignis": "Tor",
+   "person": "31 Lunnebach, Julius"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "17:22",
+   "stand": "10:8",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "18:50",
+   "stand": "11:8",
+   "ereignis": "7m mit Tor",
+   "person": "31 Lunnebach, Julius"
+  },
+  {
+   "seite": "",
+   "zeit": "19:34",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "19:47",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "18 Beer, Lennard"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "19:50",
+   "stand": "11:9",
+   "ereignis": "7m mit Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "20:41",
+   "stand": "12:9",
+   "ereignis": "Tor",
+   "person": "10 Göttert, Jannik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "21:17",
+   "stand": "12:10",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "22:54",
+   "stand": "13:10",
+   "ereignis": "Tor",
+   "person": "34 Herbertz, Tim-Levi"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "23:49",
+   "stand": "14:10",
+   "ereignis": "Tor",
+   "person": "10 Göttert, Jannik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "24:14",
+   "stand": "14:11",
+   "ereignis": "7m mit Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:15",
+   "stand": "14:12",
+   "ereignis": "Tor",
+   "person": "17 Köbe, Bennet"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:48",
+   "stand": "14:13",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "",
+   "zeit": "26:01",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:28",
+   "stand": "15:13",
+   "ereignis": "Tor",
+   "person": "19 Bürkle, Nick"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "26:59",
+   "stand": "15:14",
+   "ereignis": "Tor",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "27:01",
+   "stand": "",
+   "ereignis": "ohne Bericht",
+   "person": "18 Beer, Lennard"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "28:05",
+   "stand": "15:15",
+   "ereignis": "Tor",
+   "person": "12 Pjanic, Edi"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "28:45",
+   "stand": "15:16",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "29:36",
+   "stand": "16:16",
+   "ereignis": "Tor",
+   "person": "13 Gottron, Henry"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "29:51",
+   "stand": "16:17",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "30:33",
+   "stand": "17:17",
+   "ereignis": "Tor",
+   "person": "11 Vormbrock, Simon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "30:34",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "17 Köbe, Bennet"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "31:05",
+   "stand": "17:18",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "31:20",
+   "stand": "18:18",
+   "ereignis": "Tor",
+   "person": "13 Gottron, Henry"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "33:59",
+   "stand": "19:18",
+   "ereignis": "Tor",
+   "person": "11 Vormbrock, Simon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:43",
+   "stand": "19:19",
+   "ereignis": "Tor",
+   "person": "12 Pjanic, Edi"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:40",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "12 Pjanic, Edi"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "36:44",
+   "stand": "19:20",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:32",
+   "stand": "19:21",
+   "ereignis": "Tor",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "40:57",
+   "stand": "19:22",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "",
+   "zeit": "41:10",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "41:38",
+   "stand": "20:22",
+   "ereignis": "Tor",
+   "person": "13 Gottron, Henry"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "42:22",
+   "stand": "21:22",
+   "ereignis": "Tor",
+   "person": "23 Kummerer, Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "42:31",
+   "stand": "21:23",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "43:53",
+   "stand": "22:23",
+   "ereignis": "Tor",
+   "person": "19 Bürkle, Nick"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "44:16",
+   "stand": "23:23",
+   "ereignis": "Tor",
+   "person": "34 Herbertz, Tim-Levi"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "45:27",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "B Schimmelbauer, Tobias"
+  },
+  {
+   "seite": "",
+   "zeit": "45:57",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "48:07",
+   "stand": "24:23",
+   "ereignis": "Tor",
+   "person": "19 Bürkle, Nick"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "48:49",
+   "stand": "25:23",
+   "ereignis": "Tor",
+   "person": "23 Kummerer, Lukas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "49:14",
+   "stand": "25:24",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:38",
+   "stand": "25:25",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "51:48",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "19 Bürkle, Nick"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:05",
+   "stand": "25:26",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:09",
+   "stand": "25:27",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "57:39",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "57:55",
+   "stand": "26:27",
+   "ereignis": "Tor",
+   "person": "31 Lunnebach, Julius"
+  },
+  {
+   "seite": "",
+   "zeit": "59:25",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "60:00",
+   "stand": "26:27",
+   "ereignis": "7m ohne Tor",
+   "person": "31 Lunnebach, Julius"
+  }
+ ],
+ "ergebnis": "26:27",
+ "halbzeit": "16:17",
+ "ort": "Hans-Jürgen Portmann Halle"
+}

@@ -1,0 +1,853 @@
+{
+ "meeting": "8256599",
+ "teams": [
+  {
+   "name": "TuSpo Obernburg",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Bausch, Jonathan",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 7,
+     "name": "Mohr, Nicolas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Roos, Max",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Heinz, Magnus",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Raab, Tobias",
+     "tore": 9,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 23,
+     "name": "Steinbrecher, Leon",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 25,
+     "name": "Scheuring, Connor",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 26,
+     "name": "Budde, Urs",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Müller, Tom Nicolas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 29,
+     "name": "Kunkel, Jesper",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 33,
+     "name": "Keck, Thomas",
+     "tore": 1,
+     "7m_tore": 1,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 52,
+     "name": "Szanto, Till",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 61,
+     "name": "Friedrich, Sandro",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 89,
+     "name": "Göpfert, Andre",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 93,
+     "name": "Knabe, Konstantin",
+     "tore": 3,
+     "7m_tore": 1,
+     "7m_versuche": 3,
+     "gelb": 1,
+     "zeitstrafen": 1,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "TV Petterweil",
+   "spieler": [
+    {
+     "nr": 2,
+     "name": "Köpler, Henry",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 4,
+     "name": "Henneberger, Jonas",
+     "tore": 9,
+     "7m_tore": 7,
+     "7m_versuche": 7,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Hopp, Luis-Arjen",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 14,
+     "name": "Pfeiffer, Benedikt",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 15,
+     "name": "Ergül, Mika",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 22,
+     "name": "Koffler, Jonas",
+     "tore": 8,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 31,
+     "name": "Asam, Maximilian",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Habenicht, Martin",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 37,
+     "name": "Wassberg, Florian Lars",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 1
+    },
+    {
+     "nr": 44,
+     "name": "Rudolf, Jacob",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 55,
+     "name": "Pletz, Stephan",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 63,
+     "name": "Burkert, Laurin Aaron",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 71,
+     "name": "Ullrich, Erik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Heim",
+   "zeit": "00:42",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "01:07",
+   "stand": "0:1",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "02:48",
+   "stand": "0:2",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "03:30",
+   "stand": "0:3",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "03:56",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "14 Pfeiffer, Benedikt"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:02",
+   "stand": "1:3",
+   "ereignis": "7m mit Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "04:37",
+   "stand": "1:4",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:46",
+   "stand": "1:4",
+   "ereignis": "7m ohne Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "04:59",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "05:23",
+   "stand": "1:5",
+   "ereignis": "Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "07:10",
+   "stand": "2:5",
+   "ereignis": "Tor",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "07:50",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:51",
+   "stand": "2:6",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:55",
+   "stand": "2:7",
+   "ereignis": "Tor",
+   "person": "14 Pfeiffer, Benedikt"
+  },
+  {
+   "seite": "",
+   "zeit": "09:06",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "09:30",
+   "stand": "3:7",
+   "ereignis": "Tor",
+   "person": "27 Müller, Tom Nicolas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "09:38",
+   "stand": "3:8",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "10:31",
+   "stand": "4:8",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "11:07",
+   "stand": "5:8",
+   "ereignis": "Tor",
+   "person": "27 Müller, Tom Nicolas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "13:23",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "13:53",
+   "stand": "5:9",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:03",
+   "stand": "6:9",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:12",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "15:31",
+   "stand": "6:10",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "16:13",
+   "stand": "6:10",
+   "ereignis": "7m ohne Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "17:09",
+   "stand": "6:11",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "17:59",
+   "stand": "7:11",
+   "ereignis": "Tor",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "18:36",
+   "stand": "7:12",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "19:26",
+   "stand": "8:12",
+   "ereignis": "Tor",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "20:03",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "B Wollbeck, Philipp"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "21:19",
+   "stand": "8:13",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "22:24",
+   "stand": "9:13",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "22:58",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "23:13",
+   "stand": "10:13",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "24:32",
+   "stand": "11:13",
+   "ereignis": "Tor",
+   "person": "7 Mohr, Nicolas"
+  },
+  {
+   "seite": "",
+   "zeit": "24:57",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:28",
+   "stand": "11:14",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:51",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "11 Hopp, Luis-Arjen"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "25:58",
+   "stand": "11:14",
+   "ereignis": "7m ohne Tor",
+   "person": "89 Göpfert, Andre"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "26:34",
+   "stand": "11:15",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:46",
+   "stand": "12:15",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "27:10",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "29 Kunkel, Jesper"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "27:30",
+   "stand": "12:16",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "28:04",
+   "stand": "13:16",
+   "ereignis": "Tor",
+   "person": "7 Mohr, Nicolas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "29:16",
+   "stand": "14:16",
+   "ereignis": "Tor",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "29:58",
+   "stand": "15:16",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "30:47",
+   "stand": "16:16",
+   "ereignis": "Tor",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "31:56",
+   "stand": "17:16",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "32:38",
+   "stand": "17:17",
+   "ereignis": "Tor",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "33:51",
+   "stand": "18:17",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:13",
+   "stand": "18:18",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:08",
+   "stand": "18:19",
+   "ereignis": "Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:17",
+   "stand": "",
+   "ereignis": "ohne Bericht",
+   "person": "37 Wassberg, Florian Lars"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "36:06",
+   "stand": "18:20",
+   "ereignis": "Tor",
+   "person": "31 Asam, Maximilian"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "36:36",
+   "stand": "19:20",
+   "ereignis": "Tor",
+   "person": "11 Heinz, Magnus"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "37:14",
+   "stand": "19:21",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:14",
+   "stand": "19:22",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "41:14",
+   "stand": "19:23",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "42:25",
+   "stand": "19:24",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "",
+   "zeit": "42:38",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "43:00",
+   "stand": "20:24",
+   "ereignis": "Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "46:23",
+   "stand": "20:25",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "47:21",
+   "stand": "21:25",
+   "ereignis": "7m mit Tor",
+   "person": "33 Keck, Thomas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "48:09",
+   "stand": "21:26",
+   "ereignis": "Tor",
+   "person": "34 Habenicht, Martin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "48:43",
+   "stand": "22:26",
+   "ereignis": "Tor",
+   "person": "23 Steinbrecher, Leon"
+  },
+  {
+   "seite": "",
+   "zeit": "49:15",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:17",
+   "stand": "23:26",
+   "ereignis": "Tor",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "51:22",
+   "stand": "24:26",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "52:24",
+   "stand": "24:27",
+   "ereignis": "Tor",
+   "person": "22 Koffler, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "52:38",
+   "stand": "25:27",
+   "ereignis": "Tor",
+   "person": "13 Raab, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:36",
+   "stand": "25:28",
+   "ereignis": "Tor",
+   "person": "55 Pletz, Stephan"
+  },
+  {
+   "seite": "",
+   "zeit": "55:19",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "55:48",
+   "stand": "26:28",
+   "ereignis": "Tor",
+   "person": "25 Scheuring, Connor"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "56:22",
+   "stand": "27:28",
+   "ereignis": "Tor",
+   "person": "10 Roos, Max"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "57:15",
+   "stand": "27:29",
+   "ereignis": "Tor",
+   "person": "55 Pletz, Stephan"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "58:13",
+   "stand": "28:29",
+   "ereignis": "Tor",
+   "person": "93 Knabe, Konstantin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:33",
+   "stand": "28:30",
+   "ereignis": "7m mit Tor",
+   "person": "4 Henneberger, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:44",
+   "stand": "28:31",
+   "ereignis": "Tor",
+   "person": "55 Pletz, Stephan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "60:00",
+   "stand": "28:32",
+   "ereignis": "Tor",
+   "person": "55 Pletz, Stephan"
+  }
+ ],
+ "ergebnis": "28:32",
+ "halbzeit": "15:16",
+ "ort": "Valentin-Ballmann-Halle Obernburg"
+}

@@ -1,0 +1,901 @@
+{
+ "meeting": "8256511",
+ "teams": [
+  {
+   "name": "TSV Vellmar",
+   "spieler": [
+    {
+     "nr": 9,
+     "name": "Reichmann, Tobias",
+     "tore": 8,
+     "7m_tore": 2,
+     "7m_versuche": 3,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Bergmann, Tim-Henrik",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Gumula, Christian",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Perez Fernandez, Andreu",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 3,
+     "rot": 1
+    },
+    {
+     "nr": 14,
+     "name": "Range, Tim",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 20,
+     "name": "Denn, Alexander",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Schopf, Mathis",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Badenheuer, Louis",
+     "tore": 6,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 25,
+     "name": "Koch, Jonas",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 31,
+     "name": "Nácher Selma, Arturo",
+     "tore": 4,
+     "7m_tore": 1,
+     "7m_versuche": 2,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 41,
+     "name": "Manojlovic, Bojan",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 49,
+     "name": "Scholler, Tom",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 65,
+     "name": "Linke, Jan Philipp",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 77,
+     "name": "Drönner, Frederik",
+     "tore": 6,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "TSG Offenbach-Bürgel",
+   "spieler": [
+    {
+     "nr": 4,
+     "name": "Eck, Leon",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Lubar, David",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Ahouansou, Yannick",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 12,
+     "name": "Pjanic, Edi",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Lehmann, Tobias",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 16,
+     "name": "Khan, Saad",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Köbe, Bennet",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 19,
+     "name": "Kreuzkam, Peer",
+     "tore": 9,
+     "7m_tore": 3,
+     "7m_versuche": 3,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 20,
+     "name": "Büdel, Nico",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Lenort, Nils",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Gjorgjijeski, Klime",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 26,
+     "name": "Gaydoul, Luca",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 2,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Hofmann, Christopher",
+     "tore": 8,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 29,
+     "name": "Schlereth, Jonas",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 66,
+     "name": "Moock, Max",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 92,
+     "name": "Hoppenstaedt, Marvin",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Heim",
+   "zeit": "02:14",
+   "stand": "1:0",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "03:01",
+   "stand": "2:0",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "03:12",
+   "stand": "2:1",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "04:06",
+   "stand": "2:2",
+   "ereignis": "Tor",
+   "person": "26 Gaydoul, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "04:20",
+   "stand": "2:3",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:51",
+   "stand": "3:3",
+   "ereignis": "Tor",
+   "person": "24 Badenheuer, Louis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "05:06",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "05:57",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "17 Köbe, Bennet"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:30",
+   "stand": "4:3",
+   "ereignis": "7m mit Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:55",
+   "stand": "5:3",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:42",
+   "stand": "5:4",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:20",
+   "stand": "5:5",
+   "ereignis": "Tor",
+   "person": "26 Gaydoul, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "09:29",
+   "stand": "6:5",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "09:38",
+   "stand": "6:6",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:54",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "26 Gaydoul, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "11:57",
+   "stand": "7:6",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "12:42",
+   "stand": "7:7",
+   "ereignis": "Tor",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "14:29",
+   "stand": "7:8",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "15:19",
+   "stand": "8:8",
+   "ereignis": "Tor",
+   "person": "25 Koch, Jonas"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "16:05",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "16:54",
+   "stand": "8:9",
+   "ereignis": "Tor",
+   "person": "29 Schlereth, Jonas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "17:32",
+   "stand": "9:9",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "19:15",
+   "stand": "10:9",
+   "ereignis": "Tor",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "",
+   "zeit": "19:32",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "19:46",
+   "stand": "10:10",
+   "ereignis": "Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "20:16",
+   "stand": "10:11",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "20:39",
+   "stand": "11:11",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "21:46",
+   "stand": "12:11",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "22:43",
+   "stand": "13:11",
+   "ereignis": "Tor",
+   "person": "24 Badenheuer, Louis"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "23:35",
+   "stand": "13:12",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "24:51",
+   "stand": "13:12",
+   "ereignis": "7m ohne Tor",
+   "person": "21 Lenort, Nils"
+  },
+  {
+   "seite": "",
+   "zeit": "25:09",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:34",
+   "stand": "13:13",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:25",
+   "stand": "14:13",
+   "ereignis": "Tor",
+   "person": "24 Badenheuer, Louis"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "27:44",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "13 Lehmann, Tobias"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "28:18",
+   "stand": "14:13",
+   "ereignis": "7m ohne Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "29:11",
+   "stand": "15:13",
+   "ereignis": "7m mit Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "29:34",
+   "stand": "15:14",
+   "ereignis": "Tor",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "30:00",
+   "stand": "16:14",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "30:00",
+   "stand": "16:15",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "31:01",
+   "stand": "16:16",
+   "ereignis": "Tor",
+   "person": "26 Gaydoul, Luca"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "31:49",
+   "stand": "16:17",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:04",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "26 Gaydoul, Luca"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "34:49",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "35:09",
+   "stand": "17:17",
+   "ereignis": "Tor",
+   "person": "24 Badenheuer, Louis"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:30",
+   "stand": "17:18",
+   "ereignis": "Tor",
+   "person": "17 Köbe, Bennet"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "35:36",
+   "stand": "18:18",
+   "ereignis": "Tor",
+   "person": "24 Badenheuer, Louis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "36:39",
+   "stand": "19:18",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "36:51",
+   "stand": "19:19",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "37:22",
+   "stand": "20:19",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "37:49",
+   "stand": "21:19",
+   "ereignis": "7m mit Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "38:50",
+   "stand": "21:20",
+   "ereignis": "Tor",
+   "person": "11 Ahouansou, Yannick"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "39:24",
+   "stand": "22:20",
+   "ereignis": "Tor",
+   "person": "24 Badenheuer, Louis"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:46",
+   "stand": "22:21",
+   "ereignis": "Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "40:04",
+   "stand": "23:21",
+   "ereignis": "Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "40:13",
+   "stand": "23:22",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "40:49",
+   "stand": "24:22",
+   "ereignis": "Tor",
+   "person": "77 Drönner, Frederik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "41:56",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "42:39",
+   "stand": "24:23",
+   "ereignis": "7m mit Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "",
+   "zeit": "43:11",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "43:46",
+   "stand": "24:24",
+   "ereignis": "7m mit Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "44:55",
+   "stand": "24:24",
+   "ereignis": "7m ohne Tor",
+   "person": "9 Reichmann, Tobias"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "45:36",
+   "stand": "24:25",
+   "ereignis": "Tor",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:10",
+   "stand": "25:25",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:47",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:47",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:47",
+   "stand": "",
+   "ereignis": "ohne Bericht",
+   "person": "13 Perez Fernandez, Andreu"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "46:59",
+   "stand": "25:26",
+   "ereignis": "Tor",
+   "person": "10 Lubar, David"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "47:32",
+   "stand": "26:26",
+   "ereignis": "Tor",
+   "person": "41 Manojlovic, Bojan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "48:16",
+   "stand": "26:27",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "49:09",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "49:34",
+   "stand": "26:28",
+   "ereignis": "Tor",
+   "person": "92 Hoppenstaedt, Marvin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "49:47",
+   "stand": "27:28",
+   "ereignis": "Tor",
+   "person": "31 Nácher Selma, Arturo"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "50:07",
+   "stand": "27:29",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:35",
+   "stand": "28:29",
+   "ereignis": "Tor",
+   "person": "41 Manojlovic, Bojan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "51:07",
+   "stand": "28:30",
+   "ereignis": "Tor",
+   "person": "4 Eck, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "52:53",
+   "stand": "29:30",
+   "ereignis": "Tor",
+   "person": "41 Manojlovic, Bojan"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "53:15",
+   "stand": "29:31",
+   "ereignis": "Tor",
+   "person": "11 Ahouansou, Yannick"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:26",
+   "stand": "29:32",
+   "ereignis": "7m mit Tor",
+   "person": "19 Kreuzkam, Peer"
+  },
+  {
+   "seite": "",
+   "zeit": "54:53",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "58:11",
+   "stand": "29:33",
+   "ereignis": "Tor",
+   "person": "20 Büdel, Nico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "59:00",
+   "stand": "29:34",
+   "ereignis": "Tor",
+   "person": "27 Hofmann, Christopher"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "59:32",
+   "stand": "30:34",
+   "ereignis": "Tor",
+   "person": "25 Koch, Jonas"
+  }
+ ],
+ "ergebnis": "30:34",
+ "halbzeit": "16:15",
+ "ort": "Großsporthalle Vellmar"
+}

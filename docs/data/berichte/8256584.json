@@ -1,0 +1,922 @@
+{
+ "meeting": "8256584",
+ "teams": [
+  {
+   "name": "HSG Rodgau/N.-Roden II",
+   "spieler": [
+    {
+     "nr": 6,
+     "name": "Ullrich, Luca-Marlon",
+     "tore": 8,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 7,
+     "name": "Broschek, Maarten",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Schmidt, Noah",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Schultheis, Sven",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 13,
+     "name": "Weiland, Benedikt",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 14,
+     "name": "Eyssen, Till",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "Kraus, Justin",
+     "tore": 3,
+     "7m_tore": 1,
+     "7m_versuche": 1,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 21,
+     "name": "Planken, Nico",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Karl, Lennard",
+     "tore": 3,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 1,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Klein, Jannis",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 48,
+     "name": "Eger, Cedrik",
+     "tore": 7,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 71,
+     "name": "Maul, Philipp",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 73,
+     "name": "Juric, Lukas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 74,
+     "name": "Jano, Simon",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 91,
+     "name": "Hildebrand, Marius",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 92,
+     "name": "Eimuth, Luke",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  },
+  {
+   "name": "HSG Gr.-Bieberau/Modau",
+   "spieler": [
+    {
+     "nr": 1,
+     "name": "Juzbasic, Martin",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 2,
+     "name": "Lössl, Max Alfred",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 10,
+     "name": "Grusovnik, Matic",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 11,
+     "name": "Buschmann, Till",
+     "tore": 5,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 1,
+     "rot": 0
+    },
+    {
+     "nr": 15,
+     "name": "Kunzendorf, Kevin",
+     "tore": 16,
+     "7m_tore": 3,
+     "7m_versuche": 4,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 17,
+     "name": "David, Leon",
+     "tore": 7,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 19,
+     "name": "Hübscher, Robin",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 1
+    },
+    {
+     "nr": 20,
+     "name": "Bieliakov, Artem",
+     "tore": 1,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 24,
+     "name": "Trautmann, Lasse",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 26,
+     "name": "Thanscheidt, Matthis",
+     "tore": 2,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 27,
+     "name": "Klenk, Moritz",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 34,
+     "name": "Weber, Darren",
+     "tore": 4,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 81,
+     "name": "Becker, Thomas",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    },
+    {
+     "nr": 91,
+     "name": "Trautmann, Mika",
+     "tore": 0,
+     "7m_tore": 0,
+     "7m_versuche": 0,
+     "gelb": 0,
+     "zeitstrafen": 0,
+     "rot": 0
+    }
+   ]
+  }
+ ],
+ "verlauf": [
+  {
+   "seite": "Gast",
+   "zeit": "00:47",
+   "stand": "0:1",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "01:00",
+   "stand": "1:1",
+   "ereignis": "Tor",
+   "person": "7 Broschek, Maarten"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "02:02",
+   "stand": "1:2",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "02:44",
+   "stand": "2:2",
+   "ereignis": "Tor",
+   "person": "14 Eyssen, Till"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "03:18",
+   "stand": "",
+   "ereignis": "Verwarnung",
+   "person": "24 Karl, Lennard"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "03:45",
+   "stand": "2:3",
+   "ereignis": "Tor",
+   "person": "24 Trautmann, Lasse"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "04:19",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "11 Buschmann, Till"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "04:36",
+   "stand": "3:3",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "06:18",
+   "stand": "3:4",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:18",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "73 Juric, Lukas"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "06:46",
+   "stand": "4:4",
+   "ereignis": "Tor",
+   "person": "7 Broschek, Maarten"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "07:08",
+   "stand": "4:5",
+   "ereignis": "Tor",
+   "person": "34 Weber, Darren"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:05",
+   "stand": "4:6",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "08:41",
+   "stand": "5:6",
+   "ereignis": "Tor",
+   "person": "24 Karl, Lennard"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "08:48",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "7 Broschek, Maarten"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "08:54",
+   "stand": "5:6",
+   "ereignis": "7m ohne Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "09:30",
+   "stand": "",
+   "ereignis": "ohne Bericht",
+   "person": "19 Hübscher, Robin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "10:26",
+   "stand": "5:7",
+   "ereignis": "Tor",
+   "person": "2 Lössl, Max Alfred"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "10:49",
+   "stand": "6:7",
+   "ereignis": "Tor",
+   "person": "11 Schultheis, Sven"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "11:32",
+   "stand": "6:8",
+   "ereignis": "Tor",
+   "person": "11 Buschmann, Till"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "12:11",
+   "stand": "7:8",
+   "ereignis": "Tor",
+   "person": "11 Schultheis, Sven"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "12:23",
+   "stand": "7:9",
+   "ereignis": "Tor",
+   "person": "24 Trautmann, Lasse"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "12:59",
+   "stand": "8:9",
+   "ereignis": "Tor",
+   "person": "11 Schultheis, Sven"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "14:16",
+   "stand": "9:9",
+   "ereignis": "Tor",
+   "person": "14 Eyssen, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "14:57",
+   "stand": "9:10",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "17:03",
+   "stand": "10:10",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "",
+   "zeit": "17:17",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Gast",
+   "zeit": "19:07",
+   "stand": "10:11",
+   "ereignis": "7m mit Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "20:34",
+   "stand": "10:12",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "21:15",
+   "stand": "11:12",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "21:25",
+   "stand": "11:13",
+   "ereignis": "Tor",
+   "person": "11 Buschmann, Till"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "22:23",
+   "stand": "12:13",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "22:35",
+   "stand": "12:14",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "22:35",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "23:15",
+   "stand": "12:15",
+   "ereignis": "Tor",
+   "person": "2 Lössl, Max Alfred"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "23:53",
+   "stand": "13:15",
+   "ereignis": "Tor",
+   "person": "17 Kraus, Justin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "24:27",
+   "stand": "13:16",
+   "ereignis": "Tor",
+   "person": "11 Buschmann, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "25:53",
+   "stand": "13:17",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "",
+   "zeit": "25:56",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "26:22",
+   "stand": "14:17",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "26:35",
+   "stand": "14:18",
+   "ereignis": "Tor",
+   "person": "34 Weber, Darren"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "27:26",
+   "stand": "",
+   "ereignis": "2 Minuten",
+   "person": "10 Grusovnik, Matic"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "27:26",
+   "stand": "15:18",
+   "ereignis": "7m mit Tor",
+   "person": "17 Kraus, Justin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "28:22",
+   "stand": "16:18",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "28:55",
+   "stand": "16:19",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "30:48",
+   "stand": "16:20",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "31:39",
+   "stand": "16:21",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "32:40",
+   "stand": "17:21",
+   "ereignis": "Tor",
+   "person": "24 Karl, Lennard"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "32:54",
+   "stand": "17:22",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "34:15",
+   "stand": "17:23",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "34:58",
+   "stand": "18:23",
+   "ereignis": "Tor",
+   "person": "11 Schultheis, Sven"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "35:18",
+   "stand": "18:24",
+   "ereignis": "Tor",
+   "person": "24 Trautmann, Lasse"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "36:10",
+   "stand": "18:25",
+   "ereignis": "Tor",
+   "person": "34 Weber, Darren"
+  },
+  {
+   "seite": "",
+   "zeit": "36:20",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "36:55",
+   "stand": "19:25",
+   "ereignis": "Tor",
+   "person": "17 Kraus, Justin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "37:52",
+   "stand": "19:26",
+   "ereignis": "Tor",
+   "person": "34 Weber, Darren"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "38:26",
+   "stand": "20:26",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:01",
+   "stand": "20:27",
+   "ereignis": "Tor",
+   "person": "20 Bieliakov, Artem"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "39:11",
+   "stand": "21:27",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "39:45",
+   "stand": "21:28",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "40:14",
+   "stand": "22:28",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "43:39",
+   "stand": "23:28",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "44:23",
+   "stand": "24:28",
+   "ereignis": "Tor",
+   "person": "21 Planken, Nico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "44:50",
+   "stand": "24:29",
+   "ereignis": "Tor",
+   "person": "17 David, Leon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "45:27",
+   "stand": "24:30",
+   "ereignis": "Tor",
+   "person": "11 Buschmann, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "46:07",
+   "stand": "24:31",
+   "ereignis": "Tor",
+   "person": "26 Thanscheidt, Matthis"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "46:54",
+   "stand": "25:31",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "48:25",
+   "stand": "25:32",
+   "ereignis": "7m mit Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "49:03",
+   "stand": "26:32",
+   "ereignis": "Tor",
+   "person": "24 Karl, Lennard"
+  },
+  {
+   "seite": "",
+   "zeit": "49:47",
+   "stand": "",
+   "ereignis": "Auszeit Gast",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "50:43",
+   "stand": "27:32",
+   "ereignis": "Tor",
+   "person": "48 Eger, Cedrik"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "51:21",
+   "stand": "28:32",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "51:57",
+   "stand": "28:33",
+   "ereignis": "Tor",
+   "person": "24 Trautmann, Lasse"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "52:35",
+   "stand": "28:34",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "53:33",
+   "stand": "29:34",
+   "ereignis": "Tor",
+   "person": "21 Planken, Nico"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:12",
+   "stand": "29:35",
+   "ereignis": "Tor",
+   "person": "11 Buschmann, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "54:29",
+   "stand": "29:36",
+   "ereignis": "7m mit Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "55:28",
+   "stand": "29:37",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "55:28",
+   "stand": "30:37",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "",
+   "zeit": "55:38",
+   "stand": "",
+   "ereignis": "Auszeit Heim",
+   "person": ""
+  },
+  {
+   "seite": "Heim",
+   "zeit": "55:49",
+   "stand": "31:37",
+   "ereignis": "Tor",
+   "person": "6 Ullrich, Luca-Marlon"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "55:54",
+   "stand": "31:38",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Heim",
+   "zeit": "56:16",
+   "stand": "32:38",
+   "ereignis": "Tor",
+   "person": "14 Eyssen, Till"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:17",
+   "stand": "32:39",
+   "ereignis": "Tor",
+   "person": "26 Thanscheidt, Matthis"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "56:25",
+   "stand": "32:40",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  },
+  {
+   "seite": "Gast",
+   "zeit": "57:02",
+   "stand": "32:41",
+   "ereignis": "Tor",
+   "person": "15 Kunzendorf, Kevin"
+  }
+ ],
+ "ergebnis": "32:41",
+ "halbzeit": "16:19",
+ "ort": "RODAUSTROM Sportarena"
+}
