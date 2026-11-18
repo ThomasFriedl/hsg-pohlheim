@@ -124,6 +124,9 @@ nav.tabs button{background:none;border:0;padding:9px 4px 8px;display:grid;justif
 nav.tabs button svg{width:24px;height:24px}
 nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
 .err{padding:16px}
+.pick{display:grid;gap:6px}
+.pick label{font:700 15px/1 var(--display);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.pick select{font:600 17px var(--body);color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:11px 12px;width:100%;max-width:100%}
 </style>
 <!--INHALT-ENDE-KOPF-->
 </head>
@@ -144,7 +147,8 @@ nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
 (() => {
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-  let D = null, ansicht = "live", sortKey = "tore", sortDir = -1, offen = null;
+  let D = null, ansicht = "live", sortKey = "tore", sortDir = -1, offen = null, statTeam = null;
+  try { statTeam = localStorage.getItem("statTeam"); } catch (e) {}
   try { ansicht = localStorage.getItem("ansicht") || "live"; } catch (e) {}
 
   const wann = s => { const [d,m,y] = s.datum.split(".").map(Number); const [h,mi] = (s.zeit||"00:00").split(":").map(Number); return new Date(y, m-1, d, h, mi); };
@@ -159,7 +163,7 @@ nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
     document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-current", b.dataset.v===ansicht ? "page" : "false"));
     const v = $("#view");
     if (!D) return;
-    v.innerHTML = (D.vorschau ? `<div class="note">Vorschau mit dem Datenstand vom 17.11.2026. Nach dem ersten automatischen Abruf kommen alle Zahlen vollständig aus den nuLiga-Spielberichten.</div>` : "")
+    v.innerHTML = (D.vorschau ? `<div class="note">Vorschau mit dem Datenstand vom 17.11.2026. Bei den anderen Mannschaften stehen hier nur Spieler ab 11 Toren. Nach dem ersten automatischen Abruf kommen alle Zahlen vollständig aus den nuLiga-Spielberichten.</div>` : "")
       + ({live, spiele, statistik, tabelle}[ansicht] || live)();
     if (ansicht === "live") ticke();
   }
@@ -218,7 +222,7 @@ nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
     const unser = b.teams.find(t => wir(t.name)) || b.teams[0];
     const ander = b.teams.find(t => t !== unser);
     const torliste = t => t.spieler.filter(p=>p.tore>0).sort((a,c)=>c.tore-a.tore)
-      .map(p=>`<div><span><span class="nr">${p.nr}</span>${esc(p.name)}</span><span class="num">${p.tore}${p["7m_versuche"]?` <small>(${p["7m_tore"]}/${p["7m_versuche"]} 7m)</small>`:""}</span></div>`).join("");
+      .map(p=>`<div><span><span class="nr">${p.nr}</span>${esc(p.name)}</span><span class="num">${p.tore}${p["7m_versuche"]?` <small>(${p.tore-p["7m_tore"]} Feld, ${p["7m_tore"]}/${p["7m_versuche"]} 7m)</small>`:""}</span></div>`).join("");
     const unsereSeite = wir(s.heim) ? "Heim" : "Gast";
     const ev = b.verlauf.filter(e => /Tor|Minuten|Auszeit|Karte|Disq|Bericht/.test(e.ereignis)).map(e => {
       const tor = /Tor/.test(e.ereignis) && !/ohne Tor/.test(e.ereignis);
@@ -235,17 +239,23 @@ nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
   }
 
   // ---------- Statistik
-  const SPALTEN = [["nr","#",0],["name","Spieler",0],["einsaetze","Sp.",1],["tore","Tore",1],["tore_pro_spiel","Ø",1],["7m","7m",1],["7m_quote","7m %",1],["zeitstrafen","2′",1],["gelb","Gelb",1],["rot","Rot",1]];
-  function wertVon(p,k){ if(k==="7m") return p["7m_tore"]; if(k==="7m_quote") return p["7m_versuche"]? p["7m_tore"]/p["7m_versuche"] : -1; return p[k]; }
+  const SPALTEN = [["nr","#",0],["name","Spieler",0],["einsaetze","Sp.",1],["tore","Tore",1],["feld","Feld",1],["7m","7m",1],["7m_quote","7m %",1],["tore_pro_spiel","Ø",1],["zeitstrafen","2′",1],["gelb","Gelb",1],["rot","Rot",1]];
+  const feld = p => p.tore==null ? null : p.tore - (p["7m_tore"]||0);
+  function wertVon(p,k){ if(k==="feld") return feld(p); if(k==="7m") return p["7m_tore"]; if(k==="7m_quote") return p["7m_versuche"]? p["7m_tore"]/p["7m_versuche"] : -1; return p[k]; }
   function statistik() {
-    const rows = [...D.spieler].sort((a,b)=>{ const x=wertVon(a,sortKey), y=wertVon(b,sortKey); if (x==null&&y==null) return 0; if (x==null) return 1; if (y==null) return -1; return (typeof x==="string" ? x.localeCompare(y) : x-y) * sortDir; });
-    const sum = k => D.spieler.reduce((s,p)=>s+(p[k]||0),0);
+    const teams = [...D.tabelle.map(r=>r.mannschaft), ...Object.keys(D.spieler_nach_team||{})].filter((t,i,a)=>a.indexOf(t)===i);
+    if (!statTeam || !teams.includes(statTeam)) statTeam = teams.find(wir) || D.mannschaft;
+    const liste = (D.spieler_nach_team && D.spieler_nach_team[statTeam]) || (wir(statTeam) && D.spieler) || [];
+    const rows = [...liste].sort((a,b)=>{ const x=wertVon(a,sortKey), y=wertVon(b,sortKey); if (x==null&&y==null) return 0; if (x==null) return 1; if (y==null) return -1; return (typeof x==="string" ? x.localeCompare(y) : x-y) * sortDir; });
+    const sum = k => liste.reduce((s,p)=>s+(p[k]||0),0);
     const n = v => v==null ? "–" : v;
-    return `<h2>Spieler ${esc(D.mannschaft)}</h2><div class="card tbl"><table>
+    const bekannt = k => liste.some(p => p[k] != null);
+    return `<div class="pick"><label for="teamwahl">Mannschaft</label><select id="teamwahl">${teams.map(t=>`<option value="${esc(t)}" ${t===statTeam?"selected":""}>${esc(t)}${wir(t)?" ★":""}</option>`).join("")}</select></div>
+    ${liste.length ? `<div class="card tbl"><table>
       <thead><tr>${SPALTEN.map(([k,l])=>`<th class="sort ${k==="name"||k==="nr"?"l":""} ${sortKey===k?"on":""}" aria-sort="${sortKey===k?(sortDir<0?"descending":"ascending"):"none"}"><button data-sort="${k}">${l}${sortKey===k?(sortDir<0?" ↓":" ↑"):""}</button></th>`).join("")}</tr></thead>
-      <tbody>${rows.map(p=>`<tr><td class="l num">${n(p.nr)}</td><td class="name">${esc(p.name)}</td><td>${n(p.einsaetze)}</td><td><b>${n(p.tore)}</b></td><td>${p.tore_pro_spiel==null?"–":p.tore_pro_spiel.toFixed(1).replace(".",",")}</td><td>${p["7m_versuche"]?p["7m_tore"]+"/"+p["7m_versuche"]:"–"}</td><td>${quote(p["7m_tore"],p["7m_versuche"])}</td><td>${p.zeitstrafen||"–"}</td><td>${p.gelb||"–"}</td><td>${p.rot||"–"}</td></tr>`).join("")}</tbody>
+      <tbody>${rows.map(p=>`<tr><td class="l num">${n(p.nr)}</td><td class="name">${esc(p.name)}</td><td>${n(p.einsaetze)}</td><td><b>${n(p.tore)}</b></td><td>${n(feld(p))}</td><td>${p["7m_versuche"]?p["7m_tore"]+"/"+p["7m_versuche"]:"–"}</td><td>${quote(p["7m_tore"],p["7m_versuche"])}</td><td>${p.tore_pro_spiel==null?"–":p.tore_pro_spiel.toFixed(1).replace(".",",")}</td><td>${p.zeitstrafen||"–"}</td><td>${p.gelb||"–"}</td><td>${p.rot||"–"}</td></tr>`).join("")}</tbody>
     </table></div>
-    <div class="note">Sp. = Einsätze laut Spielbericht · Ø = Tore pro Einsatz · 2′ = Zeitstrafen. Mannschaft gesamt: ${sum("7m_tore")} von ${sum("7m_versuche")} Siebenmetern verwandelt, ${sum("zeitstrafen")} Zeitstrafen. Tippe auf eine Spalte zum Sortieren.</div>`;
+    <div class="note">Tore = insgesamt · Feld = Tore aus dem Spiel heraus · 7m = verwandelt/geworfen · Sp. = Einsätze laut Spielbericht · Ø = Tore pro Einsatz · 2′ = Zeitstrafen. Mannschaft gesamt: ${sum("tore")} Tore, davon ${sum("tore")-sum("7m_tore")} aus dem Feld und ${sum("7m_tore")} per Siebenmeter (${sum("7m_versuche")} geworfen)${bekannt("zeitstrafen")?`, ${sum("zeitstrafen")} Zeitstrafen`:""}. Tippe auf eine Spalte zum Sortieren.</div>` : `<div class="note">Für diese Mannschaft liegen noch keine Spielberichte vor.</div>`}`;
   }
 
   // ---------- Tabelle
@@ -265,6 +275,10 @@ nav.tabs button[aria-current="page"]{color:var(--ball);font-weight:600}
     if (so) { const k = so.dataset.sort; sortDir = sortKey===k ? -sortDir : (k==="name"||k==="nr" ? 1 : -1); sortKey = k; render(); return; }
     const g = e.target.closest(".game.has");
     if (g) { offen = offen===g.dataset.id ? null : g.dataset.id; render(); }
+  });
+
+  document.addEventListener("change", e => {
+    if (e.target.id === "teamwahl") { statTeam = e.target.value; try { localStorage.setItem("statTeam", statTeam); } catch (x) {} render(); }
   });
 
   fetch("data/app.json", {cache: "no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
