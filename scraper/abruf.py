@@ -91,9 +91,12 @@ def lade_tabelle():
         if len(c) <= idx["Punkte"]:
             continue
         g = lambda k: text(c[idx[k]]) if k in idx and idx[k] < len(c) else ""
+        link = c[idx["Mannschaft"]].find("a", href=re.compile("teamtable="))
+        tt = re.search(r"teamtable=(\d+)", link["href"]).group(1) if link else None
         tabelle.append({
             "rang": zahl(g("Rang")),
             "mannschaft": g("Mannschaft"),
+            "teamtable": tt,
             "spiele": zahl(g("Begegnungen")),
             "s": zahl(g("S")), "u": zahl(g("U")), "n": zahl(g("N")),
             "tore": g("Tore"), "diff": g("+/-"), "punkte": g("Punkte"),
@@ -102,8 +105,9 @@ def lade_tabelle():
 
 
 # ---------------------------------------------------------------- Spiele
-def lade_spiele():
-    url = (f"{BASE}teamPortrait?teamtable={CFG['teamtable']}"
+def lade_spiele(teamtable):
+    """Alle Spiele von der Mannschaftsseite (teamPortrait) einer Mannschaft."""
+    url = (f"{BASE}teamPortrait?teamtable={teamtable}"
            f"&pageState=vorrunde&championship={CH}&group={GROUP}")
     soup = hole(url)
     t = tabellen_mit(soup, ["Datum", "Heimmannschaft", "Gastmannschaft"])
@@ -119,8 +123,6 @@ def lade_spiele():
         datum = g("Datum") or datum
         tag = g("Tag") or tag
         heim, gast = g("Heimmannschaft"), g("Gastmannschaft")
-        if not (ist_team(heim) or ist_team(gast)):
-            continue
         link = z.find("a", href=re.compile("groupMeetingReport"))
         meeting = None
         ergebnis = None
@@ -193,11 +195,11 @@ def lies_bericht(meeting):
 
 # ---------------------------------------------------------------- Statistik
 def spielerstatistik(berichte):
-    stat = {}
+    """Spielerwerte fuer jede Mannschaft der Liga: {Mannschaft: [Spieler, ...]}"""
+    teams = {}
     for b in berichte:
         for team in b["teams"]:
-            if not ist_team(team["name"]):
-                continue
+            stat = teams.setdefault(team["name"], {})
             for s in team["spieler"]:
                 p = stat.setdefault(s["name"], {
                     "name": s["name"], "nr": s["nr"], "einsaetze": 0, "tore": 0,
@@ -207,10 +209,25 @@ def spielerstatistik(berichte):
                 p["nr"] = s["nr"]
                 for k in ("tore", "7m_tore", "7m_versuche", "zeitstrafen", "gelb", "rot"):
                     p[k] += s[k]
-    liste = sorted(stat.values(), key=lambda p: (-p["tore"], p["name"]))
-    for p in liste:
-        p["tore_pro_spiel"] = round(p["tore"] / p["einsaetze"], 2) if p["einsaetze"] else 0
-    return liste
+    ergebnis = {}
+    for name, stat in teams.items():
+        liste = sorted(stat.values(), key=lambda p: (-p["tore"], p["name"]))
+        for p in liste:
+            p["tore_pro_spiel"] = round(p["tore"] / p["einsaetze"], 2) if p["einsaetze"] else 0
+        ergebnis[name] = liste
+    return ergebnis
+
+
+def hole_bericht(sp):
+    """Spielbericht aus dem Zwischenspeicher oder von nuLiga."""
+    datei = BERICHTE / f"{sp['meeting']}.json"
+    if datei.exists():
+        return json.loads(datei.read_text(encoding="utf-8"))
+    print(f"Spielbericht {sp['datum']} {sp['heim']} – {sp['gast']} …")
+    b = lies_bericht(sp["meeting"])
+    if sp["genehmigt"]:          # nur endgueltige Berichte dauerhaft speichern
+        datei.write_text(json.dumps(b, ensure_ascii=False, indent=1), encoding="utf-8")
+    return b
 
 
 # ---------------------------------------------------------------- Ablauf
@@ -218,25 +235,33 @@ def main():
     BERICHTE.mkdir(parents=True, exist_ok=True)
     print("Tabelle …")
     tabelle = lade_tabelle()
-    print("Spiele …")
-    spiele = lade_spiele()
 
-    berichte = []
-    for sp in spiele:
-        if not sp["meeting"] or not sp["ergebnis"]:
+    # Alle Ligaspiele ueber die Mannschaftsseiten aller Teams einsammeln
+    liga_spiele = {}
+    eigene = []
+    for zeile in tabelle:
+        tt = zeile.get("teamtable")
+        if not tt:
             continue
-        datei = BERICHTE / f"{sp['meeting']}.json"
-        if datei.exists():
-            b = json.loads(datei.read_text(encoding="utf-8"))
-        else:
-            print(f"Spielbericht {sp['heim']} – {sp['gast']} …")
-            b = lies_bericht(sp["meeting"])
-            if sp["genehmigt"]:          # nur endgueltige Berichte dauerhaft speichern
-                datei.write_text(json.dumps(b, ensure_ascii=False, indent=1), encoding="utf-8")
-        sp["halbzeit"] = b.get("halbzeit", "")
-        sp["ort"] = b.get("ort", "")
-        berichte.append(b)
+        print(f"Spiele {zeile['mannschaft']} …")
+        for sp in lade_spiele(tt):
+            schluessel = sp["meeting"] or f"{sp['datum']}|{sp['heim']}|{sp['gast']}"
+            liga_spiele.setdefault(schluessel, sp)
+            if tt == str(CFG["teamtable"]) and (ist_team(sp["heim"]) or ist_team(sp["gast"])):
+                eigene.append(sp)
 
+    alle_berichte, eigene_berichte = [], {}
+    for sp in liga_spiele.values():
+        if sp["meeting"] and sp["ergebnis"]:
+            alle_berichte.append(hole_bericht(sp))
+    nach_id = {b["meeting"]: b for b in alle_berichte}
+    for sp in eigene:
+        b = nach_id.get(sp["meeting"])
+        if b:
+            sp["halbzeit"], sp["ort"] = b.get("halbzeit", ""), b.get("ort", "")
+            eigene_berichte[sp["meeting"]] = b
+
+    statistik = spielerstatistik(alle_berichte)
     app = {
         "aktualisiert": datetime.now(timezone.utc).isoformat(timespec="minutes"),
         "mannschaft": TEAM,
@@ -244,12 +269,13 @@ def main():
         "live_ticker_url": CFG.get("live_ticker_url", ""),
         "quelle": f"{BASE}groupPage?championship={CH}&group={GROUP}",
         "tabelle": tabelle,
-        "spiele": spiele,
-        "spieler": spielerstatistik(berichte),
-        "berichte": {b["meeting"]: b for b in berichte},
+        "spiele": eigene,
+        "spieler_nach_team": statistik,
+        "berichte": eigene_berichte,
     }
     (DATA / "app.json").write_text(json.dumps(app, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"Fertig: {len(tabelle)} Teams, {len(spiele)} Spiele, {len(berichte)} Spielberichte.")
+    print(f"Fertig: {len(tabelle)} Teams, {len(liga_spiele)} Ligaspiele, "
+          f"{len(alle_berichte)} Spielberichte, {len(eigene)} Spiele {TEAM}.")
 
 
 if __name__ == "__main__":
